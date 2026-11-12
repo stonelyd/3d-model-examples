@@ -1,0 +1,10 @@
+{
+  "features": [
+    "race-profile",
+    "race",
+    "groove-profile",
+    "groove"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

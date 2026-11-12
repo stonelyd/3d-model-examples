@@ -1,0 +1,14 @@
+{
+  "features": [
+    "body-profile",
+    "body",
+    "pilot",
+    "hole",
+    "cbore",
+    "screw-holes",
+    "m4",
+    "m4-holes"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

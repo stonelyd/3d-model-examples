@@ -1,0 +1,12 @@
+{
+  "features": [
+    "body-profile",
+    "body",
+    "pin-bore",
+    "pin-bores",
+    "flange-tap",
+    "flange-taps"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

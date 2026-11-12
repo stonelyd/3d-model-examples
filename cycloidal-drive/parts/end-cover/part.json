@@ -1,0 +1,13 @@
+{
+  "features": [
+    "body-profile",
+    "body",
+    "pin-socket",
+    "pin-sockets",
+    "hole",
+    "cbore",
+    "screw-holes"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

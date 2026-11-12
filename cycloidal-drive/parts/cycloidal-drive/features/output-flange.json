@@ -1,0 +1,24 @@
+{
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "output-flange",
+  "pose": {
+    "origin_m": [
+      0,
+      0,
+      0
+    ],
+    "x": [
+      0.9929278846732883,
+      -0.11871906265730522,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

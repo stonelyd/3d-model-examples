@@ -1,0 +1,26 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "housing"
+    ],
+    "offset": {
+      "origin": [
+        "-17.500000 mm",
+        "-30.310889 mm",
+        "3.100000 mm"
+      ],
+      "rotate": "0.000000 deg"
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "ring-pin-9"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

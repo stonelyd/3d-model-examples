@@ -1,0 +1,11 @@
+{
+  "features": [
+    "lobe-profile",
+    "disc",
+    "bore",
+    "pin-hole",
+    "pin-holes"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "ecc-bearing-1-outer"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "ecc-bearing-1-balls"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

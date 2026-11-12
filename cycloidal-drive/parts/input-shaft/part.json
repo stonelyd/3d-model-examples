@@ -1,0 +1,10 @@
+{
+  "features": [
+    "shaft",
+    "cam-1",
+    "cam-2",
+    "flat"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

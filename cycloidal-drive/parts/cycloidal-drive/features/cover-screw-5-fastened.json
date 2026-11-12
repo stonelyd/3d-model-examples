@@ -1,0 +1,27 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "housing"
+    ],
+    "offset": {
+      "flip": true,
+      "origin": [
+        "-10.611581 mm",
+        "-39.602959 mm",
+        "3.450000 mm"
+      ],
+      "rotate": "255.000000 deg"
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "cover-screw-5"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

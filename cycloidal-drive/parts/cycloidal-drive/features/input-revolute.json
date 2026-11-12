@@ -1,0 +1,19 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "housing"
+    ]
+  },
+  "angle": "input",
+  "b": {
+    "at": "origin",
+    "instance": [
+      "input-shaft"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

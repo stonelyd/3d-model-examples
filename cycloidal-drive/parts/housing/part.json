@@ -1,0 +1,14 @@
+{
+  "features": [
+    "body-profile",
+    "body",
+    "pin-socket",
+    "pin-sockets",
+    "cover-tap",
+    "cover-taps",
+    "mount-tap",
+    "mount-taps"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

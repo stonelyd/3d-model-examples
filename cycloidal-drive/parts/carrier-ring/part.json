@@ -1,0 +1,10 @@
+{
+  "features": [
+    "ring-profile",
+    "ring",
+    "hole",
+    "holes"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

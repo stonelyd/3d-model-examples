@@ -1,0 +1,27 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "input-shaft"
+    ],
+    "offset": {
+      "origin": [
+        "-1.200000 mm",
+        "0.000000 mm",
+        "21.000000 mm"
+      ],
+      "rotate": "180.000000 deg"
+    }
+  },
+  "angle": "disc",
+  "b": {
+    "at": "origin",
+    "instance": [
+      "disc-2"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

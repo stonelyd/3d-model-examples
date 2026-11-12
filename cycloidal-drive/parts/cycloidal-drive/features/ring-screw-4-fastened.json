@@ -1,0 +1,27 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "output-carrier"
+    ],
+    "offset": {
+      "flip": true,
+      "origin": [
+        "-21.000000 mm",
+        "0.000000 mm",
+        "11.400000 mm"
+      ],
+      "rotate": "180.000000 deg"
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "ring-screw-4"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

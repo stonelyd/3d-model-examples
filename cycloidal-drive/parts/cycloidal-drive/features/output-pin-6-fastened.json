@@ -1,0 +1,26 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "output-carrier"
+    ],
+    "offset": {
+      "origin": [
+        "10.500000 mm",
+        "-18.186533 mm",
+        "13.550000 mm"
+      ],
+      "rotate": "300.000000 deg"
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "output-pin-6"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

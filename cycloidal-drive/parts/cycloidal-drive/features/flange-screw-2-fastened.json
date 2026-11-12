@@ -1,0 +1,26 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "output-carrier"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "14.000000 mm",
+        "51.050000 mm"
+      ],
+      "rotate": "90.000000 deg"
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "flange-screw-2"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

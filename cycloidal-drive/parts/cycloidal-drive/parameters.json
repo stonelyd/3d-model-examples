@@ -1,0 +1,9 @@
+{
+  "format": 1,
+  "kind": "ryucad.parameters",
+  "parameters": {
+    "disc": "-input * 12 / 11",
+    "input": "75 deg",
+    "output": "-input / 11"
+  }
+}

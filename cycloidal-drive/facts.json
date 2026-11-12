@@ -1,0 +1,27 @@
+{
+  "title": "Cycloidal drive, 11:1, 90 mm",
+  "one_line": "Compact single-stage cycloidal reducer for a robot joint: 12 ring pins with rollers, two 11-lobe discs 180° out of phase on an eccentric input shaft, six output pins with rollers, real 6800/6802/6808 bearings and M3 screws.",
+  "specs": [
+    "Reduction 11:1, output opposite to input (12 ring pins, 11-lobe discs)",
+    "Housing Ø90 mm; z 0–54.5 mm cover to output face, plus 16 mm input stub",
+    "Ring pins Ø4 on Ø70 circle, rollers Ø6.5",
+    "Eccentricity 1.2 mm; two 6 mm discs 180° out of phase",
+    "Disc profile: offset epitrochoid, 264-segment polyline, 0.15 mm backlash clearance",
+    "6 output pins Ø5 on Ø42 with Ø7 rollers; disc holes Ø10",
+    "Bearings: 2x 6800 input, 2x 6802 eccentric, 2x 6808 main output",
+    "Output flange Ø60, 6x M4 on Ø48, Ø16 pilot"
+  ],
+  "occurrences": 80,
+  "bom_lines": 22,
+  "parameters": ["input (deg, drives shaft revolute)", "output = -input / 11 (carrier revolute)", "disc = -input * 12 / 11 (disc revolutes on eccentric axes)"],
+  "check": "0 errors, 0 warnings",
+  "interference": "337 pairs, 0 interferences (also 0 at input 0° / 304 pairs and 132° / 353 pairs)",
+  "poses": ["input 0° → output 0° (converged, 0 interferences)", "input 75° → output -6.82° (converged, 0 interferences; saved pose, renders)", "input 132° → output -12° (converged, 0 interferences)"],
+  "not_verified": [
+    "Gear ratio is geometric only: carried by parameter expressions, not a solver-enforced gear mate",
+    "Torque, stiffness, efficiency, backlash/lost motion, mass, bearing life not computed",
+    "Fits and tolerances are nominal CAD clearances, no fit analysis",
+    "Threads modelled as plain holes; no seals, circlips or lubrication",
+    "Assembly sequence not simulated"
+  ]
+}

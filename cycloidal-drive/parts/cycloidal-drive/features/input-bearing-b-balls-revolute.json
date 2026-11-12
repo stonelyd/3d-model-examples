@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "input-bearing-b-outer"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "input-bearing-b-balls"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}
