@@ -1,0 +1,21 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "body"
+    ],
+    "offset": {
+      "rotate": "180 deg"
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "seat-inlet"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

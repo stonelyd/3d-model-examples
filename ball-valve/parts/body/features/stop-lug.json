@@ -1,0 +1,31 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "params": {
+    "x": "14 mm",
+    "y": "10 mm",
+    "z": "13.5 mm"
+  },
+  "placement": {
+    "origin": [
+      "-4.949747 mm",
+      "12.020815 mm",
+      "24 mm"
+    ],
+    "x": [
+      -0.707107,
+      0.707107,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "barrel"
+  ],
+  "type": "box"
+}

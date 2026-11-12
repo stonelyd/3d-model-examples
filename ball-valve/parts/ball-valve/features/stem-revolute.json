@@ -1,0 +1,19 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "body"
+    ]
+  },
+  "angle": "valve",
+  "b": {
+    "at": "origin",
+    "instance": [
+      "stem"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

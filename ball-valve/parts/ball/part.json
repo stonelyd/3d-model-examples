@@ -1,0 +1,9 @@
+{
+  "features": [
+    "sphere",
+    "bore",
+    "stem-slot"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

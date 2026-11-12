@@ -1,0 +1,31 @@
+{
+  "title": "1\" two-piece full-port ball valve",
+  "one_line": "DN25 quarter-turn ball valve: hex body with screwed-in end piece, stainless ball between two PTFE seats, blow-out-proof stem with packing, lever with stop, driven 0-90 deg by one parameter.",
+  "specs": [
+    "Nominal 1\" (DN25), full port 25.0 mm bore",
+    "Two-piece: body + screwed-in end piece (insert), body seal",
+    "Female 1\" NPT-style ends drawn as Ø30.4 mm minor bore + 6 stacked grooves at 2.209 mm (11.5 TPI) pitch + thread relief, 17 mm deep",
+    "Face to face 92 mm; hexes 46 mm A/F; barrel Ø62 mm",
+    "Ball Ø42 mm with Ø25 mm bore and 4.4 mm stem slot",
+    "Two PTFE seats, ID 27 / OD 40 mm, conical lip 0.16 mm off the ball",
+    "Stem Ø10 mm, 7 mm double-D flats, Ø16 mm blow-out-proof shoulder inside the body + PTFE thrust washer",
+    "Stem seal: 2 PTFE packing rings, gland follower, 26 mm A/F packing nut",
+    "Lever 125 mm from stem axis, vinyl grip, two stop tabs, 14 mm A/F handle nut, stop pin in body lug",
+    "Stop tabs sit 0.19 mm from the stop pin at 0 deg and at 90 deg (ryucad clearance)"
+  ],
+  "occurrences": 16,
+  "bom_lines": 14,
+  "parameters": ["valve (assembly ball-valve): stem revolute angle, 0 deg open .. 90 deg closed"],
+  "check": "0 errors, 0 warnings",
+  "interference": "32 pairs, 0 interferences (at valve=0 deg and valve=90 deg)",
+  "poses": [
+    "valve=0 deg (open): assembly solve converged, state well, 0 dof",
+    "valve=90 deg (closed): assembly solve converged, state well, 0 dof"
+  ],
+  "not_verified": [
+    "No pressure/temperature rating, Cv/flow, operating torque or mass computed or claimed",
+    "Threads are grooves, not helical/tapered NPT; body-insert thread is a plain spigot in a bore",
+    "Seat preload and packing compression not modelled (small gaps instead)",
+    "Handle stop is geometric only; the revolute mate has no angle limit"
+  ]
+}

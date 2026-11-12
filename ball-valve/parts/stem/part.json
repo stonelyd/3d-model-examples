@@ -1,0 +1,11 @@
+{
+  "features": [
+    "shoulder",
+    "tang",
+    "shaft",
+    "flat-a",
+    "flat-b"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

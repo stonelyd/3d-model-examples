@@ -1,0 +1,14 @@
+{
+  "extent": {
+    "length": "19.000000 mm",
+    "type": "blind"
+  },
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "sketch": "hex-end-profile",
+  "targets": [
+    "barrel"
+  ],
+  "type": "extrude"
+}

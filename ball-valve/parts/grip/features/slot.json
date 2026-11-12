@@ -1,0 +1,31 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "cut",
+  "params": {
+    "x": "60.4 mm",
+    "y": "18.6 mm",
+    "z": "3.4 mm"
+  },
+  "placement": {
+    "origin": [
+      "65 mm",
+      "-9.3 mm",
+      "50.3 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "sleeve"
+  ],
+  "type": "box"
+}

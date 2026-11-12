@@ -1,0 +1,13 @@
+{
+  "features": [
+    "hub",
+    "lever",
+    "stem-hole",
+    "d-a",
+    "d-b",
+    "stop-open",
+    "stop-closed"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

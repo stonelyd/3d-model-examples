@@ -1,0 +1,19 @@
+{
+  "features": [
+    "barrel-profile",
+    "barrel",
+    "hex-end-profile",
+    "hex-end",
+    "neck",
+    "neck-thread",
+    "stop-lug",
+    "passage-profile",
+    "passage",
+    "shoulder-pocket",
+    "stem-bore",
+    "packing-bore",
+    "pin-hole"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

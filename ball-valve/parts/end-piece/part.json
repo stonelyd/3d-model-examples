@@ -1,0 +1,12 @@
+{
+  "features": [
+    "spigot-profile",
+    "spigot",
+    "hex-profile",
+    "hex",
+    "passage-profile",
+    "passage"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

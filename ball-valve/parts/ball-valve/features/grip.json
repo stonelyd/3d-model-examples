@@ -1,0 +1,24 @@
+{
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "grip",
+  "pose": {
+    "origin_m": [
+      0,
+      0,
+      0
+    ],
+    "x": [
+      1,
+      1.4654943925052066e-14,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}
