@@ -1,0 +1,18 @@
+{
+  "features": [
+    "block-profile",
+    "block",
+    "bush-drive",
+    "bush-idler",
+    "bolt-hole-1",
+    "bolt-hole-2",
+    "bolt-hole-3",
+    "bolt-hole-4",
+    "dowel-hole-1",
+    "dowel-hole-2",
+    "o-ring-groove-profile",
+    "o-ring-groove"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

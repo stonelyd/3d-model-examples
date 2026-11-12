@@ -1,0 +1,30 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "cut",
+  "params": {
+    "height": "14.500000 mm",
+    "radius": "4.000000 mm"
+  },
+  "placement": {
+    "origin": [
+      "23 mm",
+      "-30 mm",
+      "-14 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "flange"
+  ],
+  "type": "cylinder"
+}

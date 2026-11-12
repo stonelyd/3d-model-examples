@@ -1,0 +1,10 @@
+{
+  "extent": {
+    "length": "14.000000 mm",
+    "type": "blind"
+  },
+  "format": 2,
+  "kind": "ryucad.feature",
+  "sketch": "block-profile",
+  "type": "extrude"
+}

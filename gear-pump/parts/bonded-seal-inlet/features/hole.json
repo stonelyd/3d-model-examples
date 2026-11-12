@@ -1,0 +1,30 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "cut",
+  "params": {
+    "height": "3.000000 mm",
+    "radius": "6.600000 mm"
+  },
+  "placement": {
+    "origin": [
+      "31.5 mm",
+      "0 mm",
+      "9.1 mm"
+    ],
+    "x": [
+      0,
+      1,
+      0
+    ],
+    "z": [
+      1,
+      0,
+      0
+    ]
+  },
+  "targets": [
+    "washer"
+  ],
+  "type": "cylinder"
+}

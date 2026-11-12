@@ -1,0 +1,14 @@
+{
+  "extent": {
+    "length": "18.000000 mm",
+    "type": "blind"
+  },
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "sketch": "gear-profile",
+  "targets": [
+    "shaft"
+  ],
+  "type": "extrude"
+}

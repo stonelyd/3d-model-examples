@@ -1,0 +1,25 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "rear-cover"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "12.000000 mm",
+        "18.800000 mm"
+      ]
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "bushing-rear-drive"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

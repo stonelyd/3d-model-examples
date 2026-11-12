@@ -1,0 +1,11 @@
+{
+  "features": [
+    "spigot",
+    "hex-profile",
+    "hex",
+    "stub",
+    "bore"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

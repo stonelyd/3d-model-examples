@@ -1,0 +1,6 @@
+{
+  "description": "Straight port adapter, outlet (simplified, threads not modelled)",
+  "format": 1,
+  "kind": "ryupdm.properties",
+  "make_buy": "buy"
+}

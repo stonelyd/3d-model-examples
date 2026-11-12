@@ -1,0 +1,9 @@
+{
+  "features": [
+    "gear-profile",
+    "gear",
+    "bore"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

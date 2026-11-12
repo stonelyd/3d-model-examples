@@ -1,0 +1,27 @@
+{
+  "features": [
+    "flange-profile",
+    "flange",
+    "block-profile",
+    "block",
+    "pilot",
+    "seal-pocket",
+    "shaft-hole",
+    "bush-drive",
+    "bush-idler",
+    "tap-1",
+    "tap-2",
+    "tap-3",
+    "tap-4",
+    "dowel-hole-1",
+    "dowel-hole-2",
+    "o-ring-groove-profile",
+    "o-ring-groove",
+    "mount-1",
+    "mount-2",
+    "mount-3",
+    "mount-4"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

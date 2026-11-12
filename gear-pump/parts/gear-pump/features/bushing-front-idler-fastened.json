@@ -1,0 +1,25 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "front-cover"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "-12.000000 mm",
+        "-10.600000 mm"
+      ]
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "bushing-front-idler"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

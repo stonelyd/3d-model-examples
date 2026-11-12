@@ -1,0 +1,10 @@
+{
+  "extent": {
+    "length": "10.000000 mm",
+    "type": "blind"
+  },
+  "format": 2,
+  "kind": "ryucad.feature",
+  "sketch": "flange-profile",
+  "type": "extrude"
+}

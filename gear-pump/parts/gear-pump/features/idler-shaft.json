@@ -1,0 +1,24 @@
+{
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "idler-shaft",
+  "pose": {
+    "origin_m": [
+      0,
+      -0.012,
+      0
+    ],
+    "x": [
+      0.9961946980917455,
+      0.08715574274765815,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

@@ -1,0 +1,18 @@
+{
+  "features": [
+    "block-profile",
+    "block",
+    "bore-drive",
+    "bore-idler",
+    "inlet",
+    "outlet",
+    "bolt-hole-1",
+    "bolt-hole-2",
+    "bolt-hole-3",
+    "bolt-hole-4",
+    "dowel-hole-1",
+    "dowel-hole-2"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "External spur-gear hydraulic pump (Group-1 size)",
+  "one_line": "Two 12-tooth m2 spur gears in a figure-8 cavity, split body with dowelled front and rear covers, sleeve-bushed shafts, keyed drive shaft with lip seal, M8 through-bolts and port adapters; both gears on revolutes driven from one angle parameter.",
+  "specs": [
+    "Gears: module 2, 12 teeth, 20 deg pressure angle, 18 mm face width, 24 mm centre distance, tip dia 27.6 mm, 0.25 mm design backlash; polyline involute flanks",
+    "Geometric displacement estimate (2*pi*m^2*z*b): about 5.4 cm^3/rev",
+    "Cavity: two 28 mm bores, 0.2 mm radial tip clearance, 0.1 mm end float per side",
+    "Ports: inlet 13 mm (+x), outlet 10 mm (-x), straight adapters with bonded seals; drive turns clockwise seen from the shaft end",
+    "Shafts 14 mm in four 14x16x10 sleeve bushings; 5x5x20 parallel key; 14x24x7 lip seal in a 32 mm pilot",
+    "Covers on four 5x12 dowel pins, two face O-rings (about 56x3), four M8x45 SHCS with washers",
+    "Front mounting flange 104 x 92 mm, four 9 mm holes; body 64 x 80 x 18.2 mm"
+  ],
+  "occurrences": 30,
+  "bom_lines": 17,
+  "parameters": ["theta (drive gear angle; drive revolute = theta, idler revolute = 15 deg - theta)"],
+  "check": "0 errors, 0 warnings",
+  "interference": "84 pairs at theta=0 deg and 82 pairs at theta=10 deg, 0 interferences",
+  "poses": ["theta = 0 deg: solve converged (well, 0 dof), 0 interferences", "theta = 10 deg: solve converged (well, 0 dof), 0 interferences; saved pose, used for hero and detail renders"],
+  "not_verified": [
+    "No flow, pressure rating, efficiency, torque or mass computed (displacement is a geometric textbook estimate only)",
+    "Gear coupling is geometric only: ryucad has no gear-ratio mate, both revolutes are driven from theta by expression",
+    "Tooth profile is a polyline involute with a radial flank below the base circle, no generated undercut or profile shift",
+    "3D interference checked at two poses only; the full-pitch sweep is a 2D outline check (smallest gap 0.117 mm)",
+    "Threads, trapped-volume relief grooves and pressure-balanced bushings not modelled; port adapters, bonded seals and lip seal simplified; O-rings modelled pre-squeezed"
+  ]
+}

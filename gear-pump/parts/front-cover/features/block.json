@@ -1,0 +1,14 @@
+{
+  "extent": {
+    "length": "6.500000 mm",
+    "type": "blind"
+  },
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "sketch": "block-profile",
+  "targets": [
+    "flange"
+  ],
+  "type": "extrude"
+}
