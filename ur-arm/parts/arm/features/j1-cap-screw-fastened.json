@@ -1,0 +1,26 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "j1-end-cap"
+    ],
+    "offset": {
+      "flip": true,
+      "origin": [
+        "45.466334 mm",
+        "26.250000 mm",
+        "-131.000000 mm"
+      ]
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "j1-cap-screw"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

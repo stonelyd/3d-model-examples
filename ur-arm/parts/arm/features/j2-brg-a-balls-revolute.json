@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "j2-housing"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "j2-brg-a-balls"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

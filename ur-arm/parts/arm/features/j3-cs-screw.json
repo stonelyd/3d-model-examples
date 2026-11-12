@@ -1,0 +1,24 @@
+{
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "m3x10",
+  "pose": {
+    "origin_m": [
+      0.457841478,
+      -0.081,
+      0.19720015200000002
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      -1,
+      0
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

@@ -1,0 +1,29 @@
+{
+  "a": {
+    "at": {
+      "feature": "plate",
+      "name": "7701301f61bbfbb4eeeaba1b7720495c"
+    },
+    "instance": [
+      "shoulder-cradle"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "0.000000 mm",
+        "70.000000 mm"
+      ],
+      "rotate": "0.000000 deg"
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "j2-housing"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

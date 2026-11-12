@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "j5-rotor"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "j5-brg-a-in"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

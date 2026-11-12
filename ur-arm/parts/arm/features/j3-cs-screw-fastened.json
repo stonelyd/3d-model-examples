@@ -1,0 +1,26 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "j3-circular-spline"
+    ],
+    "offset": {
+      "flip": true,
+      "origin": [
+        "32.841478 mm",
+        "8.799848 mm",
+        "-51.000000 mm"
+      ]
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "j3-cs-screw"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

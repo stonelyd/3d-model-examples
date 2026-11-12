@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "j2-rotor"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "j2-brake-disk"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

@@ -1,0 +1,17 @@
+{
+  "angle": "360 deg",
+  "axis": {
+    "at": "origin",
+    "instance": [
+      "j2-housing"
+    ]
+  },
+  "count": "6",
+  "form": "circular",
+  "format": 4,
+  "instances": [
+    "j2-cap-screw"
+  ],
+  "kind": "ryucad.feature",
+  "type": "instance_pattern"
+}

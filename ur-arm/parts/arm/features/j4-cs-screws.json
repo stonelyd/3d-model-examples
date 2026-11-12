@@ -1,0 +1,17 @@
+{
+  "angle": "360 deg",
+  "axis": {
+    "at": "origin",
+    "instance": [
+      "j4-housing"
+    ]
+  },
+  "count": "12",
+  "form": "circular",
+  "format": 4,
+  "instances": [
+    "j4-cs-screw"
+  ],
+  "kind": "ryucad.feature",
+  "type": "instance_pattern"
+}

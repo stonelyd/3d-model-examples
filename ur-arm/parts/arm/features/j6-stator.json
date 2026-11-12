@@ -1,0 +1,24 @@
+{
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "stator-s",
+  "pose": {
+    "origin_m": [
+      0.8170000000000001,
+      -0.125,
+      0.31
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      -1,
+      0
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "j6-output"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "j6-out-enc-ring"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

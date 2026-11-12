@@ -1,0 +1,19 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "j1-housing"
+    ]
+  },
+  "angle": "j1",
+  "b": {
+    "at": "origin",
+    "instance": [
+      "j1-output"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

@@ -1,0 +1,13 @@
+{
+  "format": 1,
+  "kind": "ryucad.parameters",
+  "parameters": {
+    "brake": "0 mm",
+    "j1": "0 deg",
+    "j2": "0 deg",
+    "j3": "0 deg",
+    "j4": "0 deg",
+    "j5": "0 deg",
+    "j6": "0 deg"
+  }
+}

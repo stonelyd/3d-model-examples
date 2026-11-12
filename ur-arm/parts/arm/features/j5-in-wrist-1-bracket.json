@@ -1,0 +1,29 @@
+{
+  "a": {
+    "at": {
+      "feature": "plate",
+      "name": "0545065c38cf1d92e43806a4df9e89e1"
+    },
+    "instance": [
+      "wrist-1-bracket"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "0.000000 mm",
+        "54.000000 mm"
+      ],
+      "rotate": "0.000000 deg"
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "j5-housing"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "j2-output"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "j2-wg-brg-out"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

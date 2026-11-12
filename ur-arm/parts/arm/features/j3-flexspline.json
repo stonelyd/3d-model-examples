@@ -1,0 +1,24 @@
+{
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "flexspline-m",
+  "pose": {
+    "origin_m": [
+      0.425,
+      -0.03,
+      0.20600000000000002
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      1,
+      0
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

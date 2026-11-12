@@ -1,0 +1,19 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "j6-brake-solenoid"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "j6-brake-pin"
+    ]
+  },
+  "distance": "brake",
+  "form": "slider",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

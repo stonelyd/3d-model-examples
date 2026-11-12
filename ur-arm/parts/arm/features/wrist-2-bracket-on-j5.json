@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "j5-output"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "wrist-2-bracket"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

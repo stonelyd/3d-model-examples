@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "j3-pcb"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "j3-brake-solenoid"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "j4-housing"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "j4-rotor"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

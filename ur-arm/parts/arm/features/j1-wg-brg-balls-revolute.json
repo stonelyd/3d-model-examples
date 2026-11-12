@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "j1-rotor"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "j1-wg-brg-balls"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

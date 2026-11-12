@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "j1-output"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "j1-flexspline"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

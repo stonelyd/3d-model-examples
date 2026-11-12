@@ -1,0 +1,29 @@
+{
+  "a": {
+    "at": {
+      "feature": "boss",
+      "name": "eaadc1dd9d855906501749b042feedd7"
+    },
+    "instance": [
+      "forearm"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "0.000000 mm",
+        "10.000000 mm"
+      ],
+      "rotate": "0.000000 deg"
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "j4-housing"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

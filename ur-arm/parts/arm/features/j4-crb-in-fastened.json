@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "j4-output"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "j4-crb-in"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}
