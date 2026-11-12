@@ -1,0 +1,24 @@
+{
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "shcs-m3x20-yn",
+  "pose": {
+    "origin_m": [
+      0.007,
+      0.049,
+      0.006500000000000001
+    ],
+    "x": [
+      0,
+      0,
+      1
+    ],
+    "z": [
+      -1,
+      0,
+      0
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

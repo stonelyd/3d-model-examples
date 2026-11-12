@@ -1,0 +1,24 @@
+{
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "shcs-m2-5x8",
+  "pose": {
+    "origin_m": [
+      0.056500000000051,
+      -0.007071068,
+      0.007071068
+    ],
+    "x": [
+      0,
+      0,
+      1
+    ],
+    "z": [
+      -1,
+      0,
+      0
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

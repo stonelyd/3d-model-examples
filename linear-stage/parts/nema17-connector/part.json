@@ -1,0 +1,8 @@
+{
+  "features": [
+    "housing",
+    "socket"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

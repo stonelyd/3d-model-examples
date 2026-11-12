@@ -1,0 +1,10 @@
+{
+  "features": [
+    "body-profile",
+    "body",
+    "set-screw-a",
+    "set-screw-b"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

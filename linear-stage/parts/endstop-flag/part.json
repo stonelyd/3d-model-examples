@@ -1,0 +1,9 @@
+{
+  "features": [
+    "tab",
+    "vane",
+    "hole"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

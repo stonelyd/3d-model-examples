@@ -1,0 +1,9 @@
+{
+  "features": [
+    "shaft-profile",
+    "shaft",
+    "flat"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

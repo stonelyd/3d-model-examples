@@ -1,0 +1,19 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "base-plate"
+    ]
+  },
+  "angle": "-360 deg / 8 mm * max(0 mm, min(travel, 200 mm))",
+  "b": {
+    "at": "origin",
+    "instance": [
+      "lead-screw"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

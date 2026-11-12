@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "nema17-front-cap"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "nema17-rear-cap"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

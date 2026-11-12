@@ -1,0 +1,34 @@
+{
+  "title": "Lead-screw linear stage, 200 mm travel",
+  "one_line": "NEMA 17 driving a T8 lead screw (fixed end on a pair of 608s, floating end on one) through a beam coupling; a carriage on two Ø8 rods in four LM8UU bushings, pushed by an anti-backlash brass nut, with optical limit switches and rubber end stops, moved by one parameter.",
+  "specs": [
+    "Travel 200 mm, set by the parameter travel (0-200 mm, clamped in the mate expressions)",
+    "Base: 10 mm aluminium plate 120 x 370 mm, 4 counterbored M5 mounting holes, all hardware in tapped holes",
+    "Motor: NEMA 17, 42.3 mm square x 40 mm, Ø22 pilot, Ø5 shaft with flat, on a 6 mm L bracket (4 x M3x10, 2 x M4x12)",
+    "Coupling: beam style Ø20 x 25 mm, 5 mm to 8 mm bores (helical beam drawn as 3 ring slots)",
+    "Lead screw: T8, Ø8 major, lead 8 mm (4 starts x 2 mm pitch), 337 mm long, axis 28 mm above the plate; thread drawn as 2 mm-pitch trapezoid rings (crest Ø7.9, root Ø6.2)",
+    "Fixed end: back-to-back pair of 608 bearings (8x22x7, grooved races, 7 balls) clamped between two shaft collars; floating end: one 608",
+    "Guide: two Ø8 x 306 mm hardened rods at ±35 mm in four slit rod clamps (M3 clamp screw, 2 x M4x30 each)",
+    "Carriage: 96 x 56 x 28 mm aluminium block, 4 x LM8UU (Ø15 x 24), 4 x M4 tapped top holes",
+    "Nut: T8 brass flange nut (flange Ø26, 4 x M2.5x8) with preload spring and follower nut sunk in a pocket in the carriage; bore 0.15 mm off the screw crests",
+    "Limits: two slotted optical switches (TCST2103 size) on PCBs; carriage vanes sit in the slots with 0.8 mm each side at travel 0 and 200",
+    "End stops: four rubber bumpers on the bearing blocks, 2 mm off the carriage at travel 0 and 200",
+    "Screw angle tied to travel: -360 deg per 8 mm (right-hand lead); bearing cages turn at 0.37 x the screw"
+  ],
+  "occurrences": 78,
+  "bom_lines": 34,
+  "parameters": ["travel (assembly linear-stage): carriage slider distance 0..200 mm; also drives the lead-screw revolute (-45 deg/mm) and the three ball cages (0.37 x screw)"],
+  "check": "0 errors, 0 warnings",
+  "interference": "156 pairs, 0 interferences (travel 30 mm and 170 mm; also 0 at 0 mm and 200 mm)",
+  "poses": [
+    "travel=30 mm: assembly solve converged, state well, 0 dof (carriage front at X=60 mm)",
+    "travel=170 mm: assembly solve converged, state well, 0 dof (carriage front at X=200 mm)"
+  ],
+  "not_verified": [
+    "No load capacity, thrust, speed, stiffness, positioning accuracy, motor torque or mass computed or claimed (no materials file)",
+    "Threads on screw and nut are rings, not helices; the nut does not engage the screw geometrically - screw rotation and carriage travel are coupled only through the shared parameter (ryucad has no screw/gear-ratio mate)",
+    "Coupling beam drawn as ring slots; set screws, bearing shields, motor internals, LM8UU ball circuits and wiring not modelled",
+    "Bearing and bushing seats line-to-line, not press fits; anti-backlash spring preload not modelled",
+    "End stops and limit switches are geometric only; travel is limited by the clamp in the mate expressions, not by contact"
+  ]
+}

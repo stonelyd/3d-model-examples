@@ -1,0 +1,9 @@
+{
+  "features": [
+    "collar-profile",
+    "collar",
+    "set-screw"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

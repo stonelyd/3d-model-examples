@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "carriage"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "t8-flange-nut"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

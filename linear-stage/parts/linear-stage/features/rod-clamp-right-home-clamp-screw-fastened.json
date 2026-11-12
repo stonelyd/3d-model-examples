@@ -1,0 +1,25 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "rod-clamp-right-home"
+    ],
+    "offset": {
+      "origin": [
+        "6.500000 mm",
+        "14.000000 mm",
+        "-0.000000 mm"
+      ]
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "rod-clamp-right-home-clamp-screw"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

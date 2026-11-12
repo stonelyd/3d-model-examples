@@ -1,0 +1,26 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "base-plate"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "0.000000 mm",
+        "-4.500000 mm"
+      ]
+    }
+  },
+  "angle": "-0.37 * 360 deg / 8 mm * max(0 mm, min(travel, 200 mm))",
+  "b": {
+    "at": "origin",
+    "instance": [
+      "608-fixed-a-balls"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

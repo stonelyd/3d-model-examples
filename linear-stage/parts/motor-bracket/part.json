@@ -1,0 +1,15 @@
+{
+  "features": [
+    "plate",
+    "foot",
+    "pilot-bore",
+    "hole-1",
+    "hole-2",
+    "hole-3",
+    "hole-4",
+    "foot-hole-1",
+    "foot-hole-2"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

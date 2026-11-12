@@ -1,0 +1,19 @@
+{
+  "features": [
+    "block",
+    "bushing-bore-a",
+    "bushing-bore-b",
+    "nut-pocket",
+    "screw-bore",
+    "nut-tap",
+    "nut-taps",
+    "top-tap-1",
+    "top-tap-2",
+    "top-tap-3",
+    "top-tap-4",
+    "flag-tap-a",
+    "flag-tap-b"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

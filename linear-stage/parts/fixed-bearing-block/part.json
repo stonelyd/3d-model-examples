@@ -1,0 +1,15 @@
+{
+  "features": [
+    "block",
+    "pocket",
+    "bore",
+    "cbore-a",
+    "hole-a",
+    "stud-a",
+    "cbore-b",
+    "hole-b",
+    "stud-b"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

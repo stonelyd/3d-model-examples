@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "motor-bracket"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "nema17-front-cap"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

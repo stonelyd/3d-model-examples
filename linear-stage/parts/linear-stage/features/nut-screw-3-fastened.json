@@ -1,0 +1,26 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "t8-flange-nut"
+    ],
+    "offset": {
+      "flip": true,
+      "origin": [
+        "-7.071068 mm",
+        "-7.071068 mm",
+        "-3.500000 mm"
+      ]
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "nut-screw-3"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

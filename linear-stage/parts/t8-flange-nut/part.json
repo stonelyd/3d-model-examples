@@ -1,0 +1,10 @@
+{
+  "features": [
+    "nut-profile",
+    "nut",
+    "hole",
+    "holes"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

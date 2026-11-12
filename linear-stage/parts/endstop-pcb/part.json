@@ -1,0 +1,10 @@
+{
+  "features": [
+    "board",
+    "hole-a",
+    "hole-b",
+    "header"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

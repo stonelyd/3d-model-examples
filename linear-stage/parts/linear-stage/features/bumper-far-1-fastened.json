@@ -1,0 +1,26 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "floating-bearing-block"
+    ],
+    "offset": {
+      "flip": true,
+      "origin": [
+        "10.000000 mm",
+        "14.000000 mm",
+        "294.000000 mm"
+      ]
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "bumper-far-1"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

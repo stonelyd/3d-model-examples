@@ -1,0 +1,33 @@
+{
+  "features": [
+    "plate",
+    "tap-foot-1",
+    "tap-foot-2",
+    "tap-blk-3",
+    "tap-blk-4",
+    "tap-blk-5",
+    "tap-blk-6",
+    "tap-clamp-7",
+    "tap-clamp-8",
+    "tap-clamp-9",
+    "tap-clamp-10",
+    "tap-clamp-11",
+    "tap-clamp-12",
+    "tap-clamp-13",
+    "tap-clamp-14",
+    "tap-pcb-15",
+    "tap-pcb-16",
+    "tap-pcb-17",
+    "tap-pcb-18",
+    "mount-cbore-1",
+    "mount-hole-1",
+    "mount-cbore-2",
+    "mount-hole-2",
+    "mount-cbore-3",
+    "mount-hole-3",
+    "mount-cbore-4",
+    "mount-hole-4"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

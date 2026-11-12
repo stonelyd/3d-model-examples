@@ -1,0 +1,24 @@
+{
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "shaft-collar-8",
+  "pose": {
+    "origin_m": [
+      -0.01,
+      5.87836959857739e-28,
+      -4.21202419581444e-28
+    ],
+    "x": [
+      0,
+      -1,
+      6.818129960022333e-15
+    ],
+    "z": [
+      1,
+      0,
+      0
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

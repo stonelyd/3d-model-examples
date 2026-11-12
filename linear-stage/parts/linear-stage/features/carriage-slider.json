@@ -1,0 +1,26 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "base-plate"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "0.000000 mm",
+        "30.000000 mm"
+      ]
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "carriage"
+    ]
+  },
+  "distance": "max(0 mm, min(travel, 200 mm))",
+  "form": "slider",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

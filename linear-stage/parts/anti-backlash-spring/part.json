@@ -1,0 +1,8 @@
+{
+  "features": [
+    "spring-profile",
+    "spring"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

@@ -1,0 +1,25 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "endstop-pcb-home"
+    ],
+    "offset": {
+      "origin": [
+        "-26.400000 mm",
+        "0.000000 mm",
+        "-7.000000 mm"
+      ]
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "endstop-home-screw-1"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}
