@@ -1,0 +1,10 @@
+{
+  "format": 1,
+  "kind": "ryucad.materials",
+  "materials": {
+    "6061-T6": {
+      "colour": "#b8c4cf",
+      "density": "2700 kg/m^3"
+    }
+  }
+}

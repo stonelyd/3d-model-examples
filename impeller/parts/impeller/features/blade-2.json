@@ -1,0 +1,18 @@
+{
+  "format": 8,
+  "kind": "ryucad.feature",
+  "law": "minimal",
+  "operation": "join",
+  "path": {
+    "entity": "a1",
+    "feature": "blade-2-path"
+  },
+  "profile": {
+    "sketch": "blade-2-section"
+  },
+  "scale": "0.65",
+  "targets": [
+    "plate"
+  ],
+  "type": "sweep"
+}
