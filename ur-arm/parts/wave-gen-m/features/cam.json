@@ -1,0 +1,10 @@
+{
+  "extent": {
+    "length": "8.500000 mm",
+    "type": "blind"
+  },
+  "format": 2,
+  "kind": "ryucad.feature",
+  "sketch": "cam-profile",
+  "type": "extrude"
+}

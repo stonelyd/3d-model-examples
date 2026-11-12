@@ -1,0 +1,13 @@
+{
+  "features": [
+    "cup-profile",
+    "cup",
+    "band-profile",
+    "band",
+    "gap-profile",
+    "gap",
+    "teeth"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

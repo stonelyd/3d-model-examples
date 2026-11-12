@@ -1,0 +1,30 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "cut",
+  "params": {
+    "height": "7.200000 mm",
+    "radius": "2.160000 mm"
+  },
+  "placement": {
+    "origin": [
+      "9.775044 mm",
+      "9.775044 mm",
+      "-36 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "cam"
+  ],
+  "type": "cylinder"
+}

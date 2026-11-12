@@ -1,0 +1,10 @@
+{
+  "features": [
+    "cage-profile",
+    "cage",
+    "ball",
+    "balls"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

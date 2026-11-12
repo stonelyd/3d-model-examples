@@ -1,0 +1,76 @@
+{
+  "constraints": {},
+  "entities": {
+    "ax1": {
+      "m": [
+        -0.037,
+        0
+      ],
+      "type": "point"
+    },
+    "ax2": {
+      "m": [
+        -0.02636,
+        0
+      ],
+      "type": "point"
+    },
+    "axis": {
+      "end": "ax2",
+      "start": "ax1",
+      "type": "line"
+    },
+    "l1": {
+      "end": "p2",
+      "start": "p1",
+      "type": "line"
+    },
+    "l2": {
+      "end": "p3",
+      "start": "p2",
+      "type": "line"
+    },
+    "l3": {
+      "end": "p4",
+      "start": "p3",
+      "type": "line"
+    },
+    "l4": {
+      "end": "p1",
+      "start": "p4",
+      "type": "line"
+    },
+    "p1": {
+      "m": [
+        -0.036000000000000004,
+        0.01836
+      ],
+      "type": "point"
+    },
+    "p2": {
+      "m": [
+        -0.02736,
+        0.01836
+      ],
+      "type": "point"
+    },
+    "p3": {
+      "m": [
+        -0.02736,
+        0.019872
+      ],
+      "type": "point"
+    },
+    "p4": {
+      "m": [
+        -0.036000000000000004,
+        0.019872
+      ],
+      "type": "point"
+    }
+  },
+  "format": 2,
+  "kind": "ryucad.feature",
+  "plane": "zx",
+  "type": "sketch"
+}

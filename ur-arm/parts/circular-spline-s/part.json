@@ -1,0 +1,13 @@
+{
+  "features": [
+    "ring-profile",
+    "ring",
+    "gap-profile",
+    "gap",
+    "teeth",
+    "tap",
+    "taps"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

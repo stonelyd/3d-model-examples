@@ -1,0 +1,11 @@
+{
+  "features": [
+    "cam-profile",
+    "cam",
+    "bore",
+    "lighten",
+    "lightening"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}
