@@ -1,0 +1,14 @@
+{
+  "extent": {
+    "length": "16 mm",
+    "type": "symmetric"
+  },
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "sketch": "head-profile",
+  "targets": [
+    "body"
+  ],
+  "type": "extrude"
+}

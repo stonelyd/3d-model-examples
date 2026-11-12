@@ -1,0 +1,10 @@
+{
+  "features": [
+    "profile",
+    "body",
+    "finial",
+    "slit"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

@@ -1,0 +1,18 @@
+{
+  "features": [
+    "profile",
+    "body",
+    "cup",
+    "notch-1",
+    "notch-2",
+    "notch-3",
+    "notch-4",
+    "notch-5",
+    "notch-6",
+    "notch-7",
+    "notch-8",
+    "orb"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

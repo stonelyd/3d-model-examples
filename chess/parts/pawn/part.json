@@ -1,0 +1,9 @@
+{
+  "features": [
+    "profile",
+    "body",
+    "head"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

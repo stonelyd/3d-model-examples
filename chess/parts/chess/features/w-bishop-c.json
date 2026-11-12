@@ -1,0 +1,25 @@
+{
+  "fixed": true,
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "bishop",
+  "pose": {
+    "origin_m": [
+      -0.075,
+      -0.17500000000000002,
+      0
+    ],
+    "x": [
+      0,
+      1,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "kind": "ryucad.appearance",
+  "occurrences": {
+    "b-bishop-c": {
+      "colour": "#2b2522"
+    },
+    "b-bishop-f": {
+      "colour": "#2b2522"
+    },
+    "b-king-e": {
+      "colour": "#2b2522"
+    },
+    "b-knight-b": {
+      "colour": "#2b2522"
+    },
+    "b-knight-g": {
+      "colour": "#2b2522"
+    },
+    "b-pawn-a": {
+      "colour": "#2b2522"
+    },
+    "b-pawn-b": {
+      "colour": "#2b2522"
+    },
+    "b-pawn-c": {
+      "colour": "#2b2522"
+    },
+    "b-pawn-d": {
+      "colour": "#2b2522"
+    },
+    "b-pawn-e": {
+      "colour": "#2b2522"
+    },
+    "b-pawn-f": {
+      "colour": "#2b2522"
+    },
+    "b-pawn-g": {
+      "colour": "#2b2522"
+    },
+    "b-pawn-h": {
+      "colour": "#2b2522"
+    },
+    "b-queen-d": {
+      "colour": "#2b2522"
+    },
+    "b-rook-a": {
+      "colour": "#2b2522"
+    },
+    "b-rook-h": {
+      "colour": "#2b2522"
+    },
+    "w-bishop-c": {
+      "colour": "#efe4cc"
+    },
+    "w-bishop-f": {
+      "colour": "#efe4cc"
+    },
+    "w-king-e": {
+      "colour": "#efe4cc"
+    },
+    "w-knight-b": {
+      "colour": "#efe4cc"
+    },
+    "w-knight-g": {
+      "colour": "#efe4cc"
+    },
+    "w-pawn-a": {
+      "colour": "#efe4cc"
+    },
+    "w-pawn-b": {
+      "colour": "#efe4cc"
+    },
+    "w-pawn-c": {
+      "colour": "#efe4cc"
+    },
+    "w-pawn-d": {
+      "colour": "#efe4cc"
+    },
+    "w-pawn-e": {
+      "colour": "#efe4cc"
+    },
+    "w-pawn-f": {
+      "colour": "#efe4cc"
+    },
+    "w-pawn-g": {
+      "colour": "#efe4cc"
+    },
+    "w-pawn-h": {
+      "colour": "#efe4cc"
+    },
+    "w-queen-d": {
+      "colour": "#efe4cc"
+    },
+    "w-rook-a": {
+      "colour": "#efe4cc"
+    },
+    "w-rook-h": {
+      "colour": "#efe4cc"
+    }
+  }
+}

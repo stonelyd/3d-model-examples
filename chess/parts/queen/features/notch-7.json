@@ -1,0 +1,29 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "cut",
+  "params": {
+    "radius": "3.6 mm"
+  },
+  "placement": {
+    "origin": [
+      "0 mm",
+      "-12.5 mm",
+      "64 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "body"
+  ],
+  "type": "sphere"
+}

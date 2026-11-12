@@ -1,0 +1,13 @@
+{
+  "features": [
+    "profile",
+    "body",
+    "well",
+    "crenel-1",
+    "crenel-2",
+    "crenel-3",
+    "crenel-4"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}
