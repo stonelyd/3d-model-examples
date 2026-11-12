@@ -1,0 +1,31 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "cut",
+  "params": {
+    "x": "11.0 mm",
+    "y": "5.1 mm",
+    "z": "30.2 mm"
+  },
+  "placement": {
+    "origin": [
+      "-31 mm",
+      "2.55 mm",
+      "-98.1 mm"
+    ],
+    "x": [
+      -1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "coil-7"
+  ],
+  "type": "box"
+}

@@ -1,0 +1,30 @@
+{
+  "features": [
+    "coil-1",
+    "coil-1-eye",
+    "coil-2",
+    "coil-2-eye",
+    "coil-3",
+    "coil-3-eye",
+    "coil-4",
+    "coil-4-eye",
+    "coil-5",
+    "coil-5-eye",
+    "coil-6",
+    "coil-6-eye",
+    "coil-7",
+    "coil-7-eye",
+    "coil-8",
+    "coil-8-eye",
+    "coil-9",
+    "coil-9-eye",
+    "coil-10",
+    "coil-10-eye",
+    "coil-11",
+    "coil-11-eye",
+    "coil-12",
+    "coil-12-eye"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

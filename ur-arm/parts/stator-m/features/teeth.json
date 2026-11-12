@@ -1,0 +1,16 @@
+{
+  "angle": "360 deg",
+  "axis": "z",
+  "count": "12",
+  "features": [
+    "tooth",
+    "shoe"
+  ],
+  "form": "circular",
+  "format": 3,
+  "kind": "ryucad.feature",
+  "targets": [
+    "back-iron"
+  ],
+  "type": "pattern"
+}

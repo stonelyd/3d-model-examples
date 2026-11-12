@@ -1,0 +1,10 @@
+{
+  "features": [
+    "sleeve-profile",
+    "sleeve",
+    "magnet",
+    "poles"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

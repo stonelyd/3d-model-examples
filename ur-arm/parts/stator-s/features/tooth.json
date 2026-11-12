@@ -1,0 +1,31 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "params": {
+    "x": "9.216 mm",
+    "y": "3.5999999999999996 mm",
+    "z": "21.599999999999998 mm"
+  },
+  "placement": {
+    "origin": [
+      "21.744 mm",
+      "-1.8 mm",
+      "-70.56 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "back-iron"
+  ],
+  "type": "box"
+}
