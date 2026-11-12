@@ -1,0 +1,16 @@
+{
+  "angle": "360 deg",
+  "axis": "z",
+  "count": "18",
+  "features": [
+    "roller-a",
+    "roller-b"
+  ],
+  "form": "circular",
+  "format": 3,
+  "kind": "ryucad.feature",
+  "targets": [
+    "cage"
+  ],
+  "type": "pattern"
+}

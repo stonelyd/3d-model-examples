@@ -1,0 +1,12 @@
+{
+  "features": [
+    "ring-profile",
+    "ring",
+    "groove-profile",
+    "groove",
+    "tap",
+    "taps"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

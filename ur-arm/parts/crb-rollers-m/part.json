@@ -1,0 +1,11 @@
+{
+  "features": [
+    "cage-profile",
+    "cage",
+    "roller-a",
+    "roller-b",
+    "rollers"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

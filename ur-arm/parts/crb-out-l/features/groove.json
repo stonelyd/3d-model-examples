@@ -1,0 +1,12 @@
+{
+  "angle": "full",
+  "axis": "axis",
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "cut",
+  "sketch": "groove-profile",
+  "targets": [
+    "ring"
+  ],
+  "type": "revolve"
+}

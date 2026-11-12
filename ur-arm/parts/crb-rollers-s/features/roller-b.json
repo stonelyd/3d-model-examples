@@ -1,0 +1,30 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "params": {
+    "height": "2.880000 mm",
+    "radius": "1.440000 mm"
+  },
+  "placement": {
+    "origin": [
+      "25.941576 mm",
+      "4.5742 mm",
+      "-8.341766 mm"
+    ],
+    "x": [
+      0.696364,
+      0.122788,
+      0.707107
+    ],
+    "z": [
+      0.696364,
+      0.122788,
+      -0.707107
+    ]
+  },
+  "targets": [
+    "cage"
+  ],
+  "type": "cylinder"
+}

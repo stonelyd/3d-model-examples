@@ -1,0 +1,11 @@
+{
+  "features": [
+    "flange-profile",
+    "flange",
+    "cbore",
+    "hole",
+    "screw-holes"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}
