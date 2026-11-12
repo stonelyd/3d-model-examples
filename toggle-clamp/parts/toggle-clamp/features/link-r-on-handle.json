@@ -1,0 +1,32 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "handle"
+    ],
+    "offset": {
+      "origin": [
+        "20.309913 mm",
+        "36.488589 mm",
+        "17.550000 mm"
+      ]
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "link-r"
+    ],
+    "offset": {
+      "origin": [
+        "20.309913 mm",
+        "36.488589 mm",
+        "-0.000000 mm"
+      ]
+    }
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

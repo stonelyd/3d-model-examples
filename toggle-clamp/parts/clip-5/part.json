@@ -1,0 +1,9 @@
+{
+  "features": [
+    "ring-profile",
+    "ring",
+    "gap"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

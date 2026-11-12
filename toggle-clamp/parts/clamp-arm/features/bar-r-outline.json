@@ -1,0 +1,85 @@
+{
+  "constraints": {},
+  "entities": {
+    "l1": {
+      "end": "p2",
+      "start": "p1",
+      "type": "line"
+    },
+    "l2": {
+      "end": "p3",
+      "start": "p2",
+      "type": "line"
+    },
+    "l3": {
+      "end": "p4",
+      "start": "p3",
+      "type": "line"
+    },
+    "l4": {
+      "end": "p5",
+      "start": "p4",
+      "type": "line"
+    },
+    "l5": {
+      "end": "p1",
+      "start": "p5",
+      "type": "line"
+    },
+    "p1": {
+      "m": [
+        0.0364,
+        0.025
+      ],
+      "type": "point"
+    },
+    "p2": {
+      "m": [
+        0.12240000000000001,
+        0.025
+      ],
+      "type": "point"
+    },
+    "p3": {
+      "m": [
+        0.1254,
+        0.029
+      ],
+      "type": "point"
+    },
+    "p4": {
+      "m": [
+        0.1254,
+        0.044
+      ],
+      "type": "point"
+    },
+    "p5": {
+      "m": [
+        0.0404,
+        0.044
+      ],
+      "type": "point"
+    }
+  },
+  "format": 2,
+  "kind": "ryucad.feature",
+  "placement": {
+    "origin": [
+      "0 mm",
+      "0 mm",
+      "12 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "type": "sketch"
+}

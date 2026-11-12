@@ -1,0 +1,8 @@
+{
+  "description": "C to D link, 26.7 mm centres",
+  "format": 1,
+  "kind": "ryupdm.properties",
+  "make_buy": "make",
+  "material": "Steel, zinc plated",
+  "name": "Connecting link"
+}

@@ -1,0 +1,11 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "op": "unite",
+  "target": "plate-l",
+  "tools": [
+    "plate-r",
+    "web"
+  ],
+  "type": "boolean"
+}

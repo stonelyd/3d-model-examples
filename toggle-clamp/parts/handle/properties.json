@@ -1,0 +1,8 @@
+{
+  "description": "U-channel handle with crank pin C and grip bar",
+  "format": 1,
+  "kind": "ryupdm.properties",
+  "make_buy": "make",
+  "material": "Steel, zinc plated",
+  "name": "Handle"
+}

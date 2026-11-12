@@ -1,0 +1,17 @@
+{
+  "features": [
+    "flange",
+    "upright-l-outline",
+    "upright-l",
+    "upright-r-outline",
+    "upright-r",
+    "bore-h",
+    "bore-a",
+    "mount-1",
+    "mount-2",
+    "mount-3",
+    "mount-4"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

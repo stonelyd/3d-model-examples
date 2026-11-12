@@ -1,0 +1,8 @@
+{
+  "description": "ISO 4032 M8",
+  "format": 1,
+  "kind": "ryupdm.properties",
+  "make_buy": "buy",
+  "material": "Steel 8, zinc plated",
+  "name": "Hex nut M8"
+}

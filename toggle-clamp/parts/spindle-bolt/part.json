@@ -1,0 +1,10 @@
+{
+  "features": [
+    "head-profile",
+    "head",
+    "shank-profile",
+    "shank"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

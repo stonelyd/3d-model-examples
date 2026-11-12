@@ -1,0 +1,11 @@
+{
+  "features": [
+    "plate",
+    "tap-1",
+    "tap-2",
+    "tap-3",
+    "tap-4"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

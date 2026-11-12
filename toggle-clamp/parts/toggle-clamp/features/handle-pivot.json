@@ -1,0 +1,35 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "base"
+    ],
+    "offset": {
+      "flip": true,
+      "origin": [
+        "0.000000 mm",
+        "32.000000 mm",
+        "0.000000 mm"
+      ]
+    }
+  },
+  "angle": "handle",
+  "b": {
+    "at": "origin",
+    "instance": [
+      "handle"
+    ],
+    "offset": {
+      "flip": true,
+      "origin": [
+        "0.000000 mm",
+        "32.000000 mm",
+        "0.000000 mm"
+      ]
+    }
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

@@ -1,0 +1,10 @@
+{
+  "features": [
+    "plate-outline",
+    "plate",
+    "bore-c",
+    "bore-d"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

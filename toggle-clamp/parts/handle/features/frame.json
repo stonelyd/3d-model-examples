@@ -1,0 +1,12 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "op": "unite",
+  "target": "tail-l",
+  "tools": [
+    "tail-r",
+    "web",
+    "bar"
+  ],
+  "type": "boolean"
+}

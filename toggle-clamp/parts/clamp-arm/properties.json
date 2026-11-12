@@ -1,0 +1,8 @@
+{
+  "description": "U-channel arm, pivot A and link pin D, M8 spindle hole",
+  "format": 1,
+  "kind": "ryupdm.properties",
+  "make_buy": "make",
+  "material": "Steel, zinc plated",
+  "name": "Clamp arm"
+}

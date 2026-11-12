@@ -1,0 +1,19 @@
+{
+  "features": [
+    "tail-l-outline",
+    "tail-l",
+    "crank-l-outline",
+    "crank-l",
+    "tail-r-outline",
+    "tail-r",
+    "crank-r-outline",
+    "crank-r",
+    "web",
+    "bar",
+    "frame",
+    "bore-h",
+    "bore-c"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

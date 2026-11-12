@@ -1,0 +1,27 @@
+{
+  "title": "Horizontal hold-down toggle clamp",
+  "one_line": "A Destaco 225-style horizontal toggle clamp: over-centre four-bar (base, handle, twin links, U-channel arm) with an adjustable M8 spindle and neoprene tip, driven by one handle-angle parameter through a closed-loop solve.",
+  "specs": [
+    "Over-centre four-bar: ground H-A 36.4 mm, crank H-C 20.8 mm, links C-D 26.7 mm, rocker A-D 13.0 mm; 3 deg past centre when clamped",
+    "Handle 0 -> 60 deg swings the arm 0 -> 103.4 deg (solved); arm dips 0.29-0.42 deg through centre in the first 2-5 deg of handle travel",
+    "Overall length 257 mm clamped; base 72 x 52 mm, 4 x 6.6 mm holes on 56 x 38 mm centres; pivots 32 mm above mounting face",
+    "M8 x 35 hex spindle bolt, two ISO 4032 M8 lock nuts, neoprene cap, 75 mm from arm pivot",
+    "6 mm pivot pins (A, H) and 5 mm link pins (C, D) with e-clip grooves and E-style clips; 0.1 mm radial pin clearance",
+    "Mounted with 4 x ISO 4762 M6 x 16 + ISO 7089 washers to a tapped fixture plate; size class of ~200 kg horizontal clamps (no rating computed)"
+  ],
+  "occurrences": 34,
+  "bom_lines": 21,
+  "parameters": ["handle (deg, 0 = clamped over centre, 60 = open; drives the handle revolute, arm and links follow through the closed loop)"],
+  "check": "0 errors, 0 warnings",
+  "interference": "68 pairs clamped + 91 pairs open, 0 interferences",
+  "poses": [
+    "clamped: handle 0 deg, arm 0.00 deg (solve converged, 0 DOF)",
+    "open: handle 60 deg, arm 103.36 deg (solve converged, 0 DOF; reached in 10 deg steps)"
+  ],
+  "not_verified": [
+    "No holding force, handle force, mass or stiffness computed; 200 kg class is a size reference only",
+    "Clearance checked at the two poses only, not swept through the travel",
+    "Closed-loop solve needs handle steps of <= 10 deg; a single large jump can land on the four-bar's other branch",
+    "No handle stop modelled; threads not modelled; base is one solid without bend radii; curves are polylines"
+  ]
+}

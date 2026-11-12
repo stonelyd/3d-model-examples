@@ -1,0 +1,19 @@
+{
+  "features": [
+    "plate-l-outline",
+    "plate-l",
+    "bar-l-outline",
+    "bar-l",
+    "plate-r-outline",
+    "plate-r",
+    "bar-r-outline",
+    "bar-r",
+    "web",
+    "channel",
+    "bore-a",
+    "bore-d",
+    "spindle-hole"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

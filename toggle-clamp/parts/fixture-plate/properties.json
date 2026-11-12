@@ -1,0 +1,8 @@
+{
+  "description": "190 x 100 x 12 mm plate, 4x M6 tapped",
+  "format": 1,
+  "kind": "ryupdm.properties",
+  "make_buy": "make",
+  "material": "Aluminium 6061",
+  "name": "Fixture plate"
+}

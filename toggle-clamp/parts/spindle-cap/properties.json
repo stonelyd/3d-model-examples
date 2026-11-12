@@ -1,0 +1,8 @@
+{
+  "description": "Neoprene cap over the spindle bolt head, 20 mm",
+  "format": 1,
+  "kind": "ryupdm.properties",
+  "make_buy": "buy",
+  "material": "Neoprene",
+  "name": "Spindle cap"
+}

@@ -1,0 +1,8 @@
+{
+  "description": "40 x 44 x 12 mm sample block (context only)",
+  "format": 1,
+  "kind": "ryupdm.properties",
+  "make_buy": "make",
+  "material": "Aluminium",
+  "name": "Workpiece"
+}

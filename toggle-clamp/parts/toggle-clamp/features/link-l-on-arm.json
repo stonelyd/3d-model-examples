@@ -1,0 +1,32 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "clamp-arm"
+    ],
+    "offset": {
+      "origin": [
+        "46.800000 mm",
+        "39.800000 mm",
+        "-17.550000 mm"
+      ]
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "link-l"
+    ],
+    "offset": {
+      "origin": [
+        "46.800000 mm",
+        "39.800000 mm",
+        "-0.000000 mm"
+      ]
+    }
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

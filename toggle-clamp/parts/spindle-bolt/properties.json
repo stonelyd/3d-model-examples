@@ -1,0 +1,8 @@
+{
+  "description": "Hex bolt M8 x 35 (thread not modelled)",
+  "format": 1,
+  "kind": "ryupdm.properties",
+  "make_buy": "buy",
+  "material": "Steel 8.8, zinc plated",
+  "name": "Spindle bolt"
+}

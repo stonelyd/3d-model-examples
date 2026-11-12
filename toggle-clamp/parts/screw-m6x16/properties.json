@@ -1,0 +1,8 @@
+{
+  "description": "ISO 4762 M6 x 16",
+  "format": 1,
+  "kind": "ryupdm.properties",
+  "make_buy": "buy",
+  "material": "Steel 12.9",
+  "name": "Socket head cap screw M6 x 16"
+}

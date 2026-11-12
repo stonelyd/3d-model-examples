@@ -1,0 +1,10 @@
+{
+  "extent": {
+    "length": "2.500000 mm",
+    "type": "blind"
+  },
+  "format": 2,
+  "kind": "ryucad.feature",
+  "sketch": "plate-l-outline",
+  "type": "extrude"
+}

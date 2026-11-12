@@ -1,0 +1,8 @@
+{
+  "description": "Stamped flanged base, two uprights, 4x 6.6 mm mounting holes",
+  "format": 1,
+  "kind": "ryupdm.properties",
+  "make_buy": "make",
+  "material": "Steel, zinc plated",
+  "name": "Base"
+}
