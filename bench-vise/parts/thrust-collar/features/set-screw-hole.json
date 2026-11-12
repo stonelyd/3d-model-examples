@@ -1,0 +1,30 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "cut",
+  "params": {
+    "height": "8.000000 mm",
+    "radius": "2.000000 mm"
+  },
+  "placement": {
+    "origin": [
+      "229.4 mm",
+      "0 mm",
+      "40 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "collar"
+  ],
+  "type": "cylinder"
+}

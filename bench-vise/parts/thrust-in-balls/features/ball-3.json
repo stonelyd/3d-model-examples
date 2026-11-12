@@ -1,0 +1,29 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "params": {
+    "radius": "1.2 mm"
+  },
+  "placement": {
+    "origin": [
+      "191.9 mm",
+      "2.847009 mm",
+      "43.625184 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "cage"
+  ],
+  "type": "sphere"
+}

@@ -1,0 +1,29 @@
+{
+  "a": {
+    "at": {
+      "feature": "jaw",
+      "name": "bc193b113a10bcc2e8f87bff34dcd47d"
+    },
+    "instance": [
+      "moving-jaw"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "0.000000 mm",
+        "104.500000 mm"
+      ],
+      "rotate": "0.000000 deg"
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "gib-screw-1"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

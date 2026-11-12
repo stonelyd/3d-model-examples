@@ -1,0 +1,28 @@
+{
+  "title": "100 mm (4\") machinist's milling vise",
+  "one_line": "Screw-driven milling vise: cast body with keyway and T-bolt ears, gibbed moving jaw with hold-down plate, bronze nut, 20 mm x 4 mm-lead Acme-style screw between two ball thrust bearings, crank handle; one parameter opens it 0-100 mm.",
+  "specs": [
+    "Jaw width 100 mm; hardened jaw plates 100 x 32 x 10 mm, 2 x M6 SHCS each in counterbores",
+    "Opening 0-100 mm via assembly parameter `opening` (clamped with min/max in the mate expressions)",
+    "Lead screw 20 mm Acme-style, 4 mm lead (stacked trapezoidal rings, 16 mm minor), 16 mm journal",
+    "Two axial ball thrust bearings 16 x 28 mm (12 x 2.4 mm balls each) either side of the end wall, plus locking collar",
+    "Guided way: 48 mm slot between lips, 40 mm tongue with 3.9 mm gib strips each side, 72 mm hold-down plate, bronze nut bolted through it with 4 x M6",
+    "Body 270 x 110 mm (170 mm over mounting ears), 108 mm to jaw tops, screw axis 33 mm above table",
+    "18 mm keyway with two tenon keys; four open slots with M12 bolts and washers",
+    "Crank handle 117 mm throw; screw turns 360 deg per 4 mm of jaw travel (crank clockwise from the handle end closes)"
+  ],
+  "occurrences": 42,
+  "bom_lines": 25,
+  "parameters": ["opening (0-100 mm, drives nut slider, lead-screw revolute and cage revolutes)", "lead = 4 mm (screw lead used in the angle expressions)"],
+  "check": "0 errors, 0 warnings",
+  "interference": "93 pairs, 0 interferences (0 touching, 0 unchecked) at opening 20 mm and 80 mm",
+  "poses": ["opening = 20 mm: solve converged, state well, 0 dof, screw at 1800 deg", "opening = 80 mm: solve converged, state well, 0 dof, screw at 7200 deg (project saved at this pose; hero/detail rendered here)"],
+  "not_verified": [
+    "Thread is stacked rings, not a helix; nut bore is plain; screw-nut coupling is by parameter expression, not geometric (ryucad has no screw/gear mate)",
+    "Thrust bearings simplified (flat washers, balls 0.1 mm clear), not catalogue geometry",
+    "No fits/tolerances; 0.1 mm modelled clearances at way, gibs and bearings",
+    "Crank sweeps below the table plane over part of a turn; full-turn collision against a table not checked",
+    "No mass, clamping force or screw torque computed; no materials assigned",
+    "Mounting bolts are plain hex bolts standing in for T-bolts; table not modelled"
+  ]
+}

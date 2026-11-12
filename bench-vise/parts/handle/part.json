@@ -1,0 +1,10 @@
+{
+  "features": [
+    "hub-profile",
+    "hub",
+    "crank",
+    "boss"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

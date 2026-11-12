@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "lead-screw"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "thrust-in-shaft-washer"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "lead-nut"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "moving-jaw"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

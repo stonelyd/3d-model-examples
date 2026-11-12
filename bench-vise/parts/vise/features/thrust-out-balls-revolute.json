@@ -1,0 +1,33 @@
+{
+  "a": {
+    "at": {
+      "feature": "block",
+      "name": "3d6e73d49f07cd84dda2a194c12a0155"
+    },
+    "instance": [
+      "body"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "0.000000 mm",
+        "0.000000 mm"
+      ],
+      "rotate": "90.000000 deg"
+    }
+  },
+  "angle": "min(max(opening, 0 mm), 100 mm) / lead * (180 deg)",
+  "b": {
+    "at": {
+      "feature": "cage",
+      "name": "45c223d99e391ef5294dc0008fa4f0e7"
+    },
+    "instance": [
+      "thrust-out-balls"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

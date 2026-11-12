@@ -1,0 +1,23 @@
+{
+  "features": [
+    "jaw",
+    "tongue",
+    "relief",
+    "plate-tap-b",
+    "plate-tap-a",
+    "nut-tap-1",
+    "nut-tap-2",
+    "nut-tap-3",
+    "nut-tap-4",
+    "gib-hole-1",
+    "gib-cbore-1",
+    "gib-hole-2",
+    "gib-cbore-2",
+    "gib-hole-3",
+    "gib-cbore-3",
+    "gib-hole-4",
+    "gib-cbore-4"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

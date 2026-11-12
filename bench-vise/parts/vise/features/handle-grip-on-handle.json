@@ -1,0 +1,25 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "handle"
+    ],
+    "offset": {
+      "origin": [
+        "0 mm",
+        "0 mm",
+        "117 mm"
+      ]
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "handle-grip"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

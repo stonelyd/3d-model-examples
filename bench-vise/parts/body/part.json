@@ -1,0 +1,32 @@
+{
+  "features": [
+    "block",
+    "fixed-jaw",
+    "ear-1a",
+    "ear-1b",
+    "ear-2a",
+    "ear-2b",
+    "channel",
+    "slot",
+    "keyway",
+    "slot-1a",
+    "slot-end-1a",
+    "slot-1b",
+    "slot-end-1b",
+    "slot-2a",
+    "slot-end-2a",
+    "slot-2b",
+    "slot-end-2b",
+    "pocket-1a",
+    "pocket-2a",
+    "pocket-1b",
+    "pocket-2b",
+    "journal-bore",
+    "jaw-tap-b",
+    "jaw-tap-a",
+    "key-tap-1",
+    "key-tap-2"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

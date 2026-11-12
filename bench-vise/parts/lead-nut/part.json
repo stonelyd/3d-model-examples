@@ -1,0 +1,16 @@
+{
+  "features": [
+    "nut",
+    "bore",
+    "cbore-1",
+    "hole-1",
+    "cbore-2",
+    "hole-2",
+    "cbore-3",
+    "hole-3",
+    "cbore-4",
+    "hole-4"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

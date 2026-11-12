@@ -1,0 +1,24 @@
+{
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "thrust-in-balls",
+  "pose": {
+    "origin_m": [
+      -2.9155604890718e-29,
+      -7.7316054062437e-17,
+      6.60582699651968e-15
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      2.3429107291650482e-15,
+      1
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

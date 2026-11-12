@@ -1,0 +1,24 @@
+{
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "m12x40-hex",
+  "pose": {
+    "origin_m": [
+      0.155,
+      0.07100000000000001,
+      0.0165
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

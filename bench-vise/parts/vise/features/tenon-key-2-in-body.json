@@ -1,0 +1,29 @@
+{
+  "a": {
+    "at": {
+      "feature": "block",
+      "name": "5807708660a14d4fe1abdb81787b8d6d"
+    },
+    "instance": [
+      "body"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "0.000000 mm",
+        "0.000000 mm"
+      ],
+      "rotate": "0.000000 deg"
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "tenon-key-2"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

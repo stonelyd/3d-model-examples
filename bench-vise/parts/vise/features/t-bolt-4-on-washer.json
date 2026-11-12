@@ -1,0 +1,25 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "ear-washer-4"
+    ],
+    "offset": {
+      "origin": [
+        "0 mm",
+        "0 mm",
+        "2.5 mm"
+      ]
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "t-bolt-4"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

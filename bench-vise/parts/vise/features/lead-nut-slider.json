@@ -1,0 +1,33 @@
+{
+  "a": {
+    "at": {
+      "feature": "block",
+      "name": "3d6e73d49f07cd84dda2a194c12a0155"
+    },
+    "instance": [
+      "body"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "0.000000 mm",
+        "0.000000 mm"
+      ],
+      "rotate": "0.000000 deg"
+    }
+  },
+  "b": {
+    "at": {
+      "feature": "nut",
+      "name": "aa70c18df9967fc7afedc5454e4c6c08"
+    },
+    "instance": [
+      "lead-nut"
+    ]
+  },
+  "distance": "min(max(opening, 0 mm), 100 mm)",
+  "form": "slider",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

@@ -1,0 +1,30 @@
+{
+  "a": {
+    "at": {
+      "feature": "jaw",
+      "name": "e21aa33a3d57154255e6e150c6198910"
+    },
+    "instance": [
+      "moving-jaw"
+    ],
+    "offset": {
+      "flip": true,
+      "origin": [
+        "0.000000 mm",
+        "0.000000 mm",
+        "24.500000 mm"
+      ],
+      "rotate": "0.000000 deg"
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "nut-bolt-1"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

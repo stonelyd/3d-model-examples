@@ -1,0 +1,29 @@
+{
+  "a": {
+    "at": {
+      "feature": "block",
+      "name": "ef0955b1fbe1ac0c908a6673e5b25225"
+    },
+    "instance": [
+      "body"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "7.000000 mm",
+        "14.000000 mm"
+      ],
+      "rotate": "0.000000 deg"
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "ear-washer-3"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

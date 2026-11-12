@@ -1,0 +1,30 @@
+{
+  "a": {
+    "at": {
+      "feature": "jaw",
+      "name": "b4b3171f82d0be6a93642c9000381b94"
+    },
+    "instance": [
+      "moving-jaw"
+    ],
+    "offset": {
+      "flip": true,
+      "origin": [
+        "0.000000 mm",
+        "0.000000 mm",
+        "6.500000 mm"
+      ],
+      "rotate": "0.000000 deg"
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "moving-plate-screw-b"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

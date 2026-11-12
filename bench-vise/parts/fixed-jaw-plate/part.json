@@ -1,0 +1,11 @@
+{
+  "features": [
+    "plate",
+    "cbore-b",
+    "hole-b",
+    "cbore-a",
+    "hole-a"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

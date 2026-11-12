@@ -1,0 +1,29 @@
+{
+  "a": {
+    "at": {
+      "feature": "block",
+      "name": "2d10111626749ce2cd6dfb751f4fb27e"
+    },
+    "instance": [
+      "body"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "0.000000 mm",
+        "-6.500000 mm"
+      ],
+      "rotate": "0.000000 deg"
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "fixed-plate-screw-b"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

@@ -1,0 +1,11 @@
+{
+  "features": [
+    "plate",
+    "hole-1",
+    "hole-2",
+    "hole-3",
+    "hole-4"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

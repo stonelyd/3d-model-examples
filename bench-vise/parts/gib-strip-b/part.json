@@ -1,0 +1,9 @@
+{
+  "features": [
+    "strip",
+    "tap-1",
+    "tap-2"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}
