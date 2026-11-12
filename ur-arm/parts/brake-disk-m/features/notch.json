@@ -1,0 +1,31 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "cut",
+  "params": {
+    "x": "3.8249999999999997 mm",
+    "y": "3.06 mm",
+    "z": "1.7 mm"
+  },
+  "placement": {
+    "origin": [
+      "27.625 mm",
+      "-1.53 mm",
+      "-96.05 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "disk"
+  ],
+  "type": "box"
+}
