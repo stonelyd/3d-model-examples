@@ -1,0 +1,19 @@
+{
+  "features": [
+    "body",
+    "tie-hole-1",
+    "tie-hole-2",
+    "tie-hole-3",
+    "tie-hole-4",
+    "port",
+    "port-feed",
+    "cushion-cbore",
+    "spigot",
+    "boss",
+    "bore-profile",
+    "bore",
+    "cushion-needle-bore"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

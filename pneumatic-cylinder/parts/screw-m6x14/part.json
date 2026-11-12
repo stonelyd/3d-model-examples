@@ -1,0 +1,10 @@
+{
+  "features": [
+    "screw-profile",
+    "screw",
+    "socket-profile",
+    "socket"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

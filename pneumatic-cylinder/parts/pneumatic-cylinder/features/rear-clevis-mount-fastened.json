@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "rear-cap"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "rear-clevis-mount"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

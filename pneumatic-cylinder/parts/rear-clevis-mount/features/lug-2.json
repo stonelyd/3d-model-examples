@@ -1,0 +1,14 @@
+{
+  "extent": {
+    "length": "6 mm",
+    "type": "blind"
+  },
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "sketch": "lug-2-profile",
+  "targets": [
+    "plate"
+  ],
+  "type": "extrude"
+}

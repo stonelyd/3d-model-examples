@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "piston-rod"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "rod-clevis"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

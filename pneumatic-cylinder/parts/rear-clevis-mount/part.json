@@ -1,0 +1,20 @@
+{
+  "features": [
+    "plate",
+    "lug-1-profile",
+    "lug-1",
+    "lug-2-profile",
+    "lug-2",
+    "pin-hole",
+    "screw-hole-1",
+    "screw-cbore-1",
+    "screw-hole-2",
+    "screw-cbore-2",
+    "screw-hole-3",
+    "screw-cbore-3",
+    "screw-hole-4",
+    "screw-cbore-4"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

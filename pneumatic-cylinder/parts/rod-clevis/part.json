@@ -1,0 +1,12 @@
+{
+  "features": [
+    "shank",
+    "fork-profile",
+    "fork",
+    "slot",
+    "pin-hole",
+    "thread-bore"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

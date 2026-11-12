@@ -1,0 +1,9 @@
+{
+  "features": [
+    "screw-profile",
+    "screw",
+    "slot"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

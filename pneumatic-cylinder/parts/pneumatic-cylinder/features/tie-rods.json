@@ -1,0 +1,17 @@
+{
+  "angle": "360 deg",
+  "axis": {
+    "at": "origin",
+    "instance": [
+      "barrel"
+    ]
+  },
+  "count": "4",
+  "form": "circular",
+  "format": 4,
+  "instances": [
+    "tie-rod"
+  ],
+  "kind": "ryucad.feature",
+  "type": "instance_pattern"
+}

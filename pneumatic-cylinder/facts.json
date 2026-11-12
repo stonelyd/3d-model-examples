@@ -1,0 +1,32 @@
+{
+  "title": "ISO 15552-style tie-rod pneumatic cylinder, 32 x 100",
+  "one_line": "A double-acting, cushioned 32 mm bore tie-rod air cylinder with a 100 mm stroke, a rear double-clevis mount and a rod-end clevis. Every seal, bushing, nut, pin and circlip is its own solid, and the rod moves on one slider mate.",
+  "specs": [
+    "Bore 32 mm, stroke 100 mm, piston rod 12 mm",
+    "Body length 94 mm + stroke (194 mm), end caps 45 mm square",
+    "4 x M6 tie rods on a 32.5 mm square, nuts at the front",
+    "G1/8 ports (8.8 mm tap-drill bores with feed passages) and slotted cushion needle screws in both caps",
+    "Piston: 2 back-to-back U-cup seals, wear band, magnet ring, rear cushion spear; front cushion collar on the rod",
+    "Rod gland: U-cup rod seal, bronze bushing, wiper",
+    "Rod end M10x1.25 x 22 with jam nut and ISO 8140-style clevis, 10 mm pin and 2 circlips",
+    "Rear double clevis (26 mm slot) on 4 x M6 socket screws, 10 mm pin and 2 circlips",
+    "Computed areas: piston 804.2 mm², rod-side annulus 691.2 mm²"
+  ],
+  "occurrences": 35,
+  "bom_lines": 21,
+  "parameters": ["stroke (length, 0-100 mm, clamped in the slider's distance expression; saved at 10 mm)"],
+  "check": "0 errors, 0 warnings",
+  "interference": "85 pairs, 0 interferences (stroke 10, 90 and 100 mm; 88 pairs, 0 interferences at 0 mm)",
+  "poses": [
+    "stroke = 10 mm: assembly solve converged, 0 dof, 25/25 mates well",
+    "stroke = 90 mm: assembly solve converged, 0 dof, 25/25 mates well (hero.png and detail.png show this pose)"
+  ],
+  "not_verified": [
+    "Threads are not modelled (ports, tie rods, rod end, screws, piston-to-rod)",
+    "Seals are rigid sections just short of contact: no squeeze or sealing check",
+    "Cushioning is geometric only: no air flow, cushioning, force or pressure calculation",
+    "No materials or masses assigned; no force, pressure rating or mass is claimed",
+    "Clevis pins are fastened, not free revolutes; the rod does not turn about its axis",
+    "The tie-rod and mount-screw threads in the rear cap are simplified (they share holes, 1 mm apart)"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "piston"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "piston-seal-rear"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}
