@@ -1,0 +1,24 @@
+{
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "sun-gear",
+  "pose": {
+    "origin_m": [
+      8.78116980979588e-21,
+      -1.240828364163838e-20,
+      2.72630328844382e-27
+    ],
+    "x": [
+      -1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

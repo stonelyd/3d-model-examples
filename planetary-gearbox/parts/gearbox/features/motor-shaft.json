@@ -1,0 +1,24 @@
+{
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "motor-shaft",
+  "pose": {
+    "origin_m": [
+      4.90014511295557e-21,
+      -4.48745141763464e-21,
+      4.03896783473158e-28
+    ],
+    "x": [
+      -1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

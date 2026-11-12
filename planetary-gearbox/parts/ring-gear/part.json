@@ -1,0 +1,13 @@
+{
+  "features": [
+    "housing",
+    "bore",
+    "space-profile",
+    "space",
+    "spaces",
+    "hole",
+    "holes"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

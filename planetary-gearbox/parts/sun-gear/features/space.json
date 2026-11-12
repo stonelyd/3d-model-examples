@@ -1,0 +1,14 @@
+{
+  "extent": {
+    "length": "9.500000 mm",
+    "type": "blind"
+  },
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "cut",
+  "sketch": "space-profile",
+  "targets": [
+    "blank"
+  ],
+  "type": "extrude"
+}

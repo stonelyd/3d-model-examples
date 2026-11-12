@@ -1,0 +1,14 @@
+{
+  "features": [
+    "blank",
+    "space-profile",
+    "space",
+    "spaces",
+    "hub",
+    "bore-profile",
+    "bore",
+    "set-screw-hole"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

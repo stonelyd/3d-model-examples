@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "input-plate"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "ring-gear"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

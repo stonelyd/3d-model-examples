@@ -1,0 +1,26 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "carrier"
+    ],
+    "offset": {
+      "origin": [
+        "-7.500000 mm",
+        "-12.990381 mm",
+        "14.250000 mm"
+      ]
+    }
+  },
+  "angle": "planet",
+  "b": {
+    "at": "origin",
+    "instance": [
+      "planet-3"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

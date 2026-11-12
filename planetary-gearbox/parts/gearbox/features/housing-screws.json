@@ -1,0 +1,17 @@
+{
+  "angle": "360 deg",
+  "axis": {
+    "at": "origin",
+    "instance": [
+      "motor"
+    ]
+  },
+  "count": "6",
+  "form": "circular",
+  "format": 4,
+  "instances": [
+    "housing-screw"
+  ],
+  "kind": "ryucad.feature",
+  "type": "instance_pattern"
+}

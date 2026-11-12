@@ -1,0 +1,16 @@
+{
+  "angle": "360 deg",
+  "axis": "z",
+  "count": "3",
+  "features": [
+    "pin-hole",
+    "window"
+  ],
+  "form": "circular",
+  "format": 3,
+  "kind": "ryucad.feature",
+  "targets": [
+    "plate"
+  ],
+  "type": "pattern"
+}

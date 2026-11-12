@@ -1,0 +1,16 @@
+{
+  "angle": "360 deg",
+  "axis": "z",
+  "count": "6",
+  "features": [
+    "hole",
+    "cbore"
+  ],
+  "form": "circular",
+  "format": 3,
+  "kind": "ryucad.feature",
+  "targets": [
+    "flange"
+  ],
+  "type": "pattern"
+}

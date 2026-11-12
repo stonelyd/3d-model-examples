@@ -1,0 +1,13 @@
+{
+  "features": [
+    "plate",
+    "shoulder",
+    "shaft",
+    "d-flat",
+    "pin-hole",
+    "window",
+    "pin-holes"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

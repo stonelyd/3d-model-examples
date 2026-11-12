@@ -1,0 +1,19 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "input-plate"
+    ]
+  },
+  "angle": "out",
+  "b": {
+    "at": "origin",
+    "instance": [
+      "carrier"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

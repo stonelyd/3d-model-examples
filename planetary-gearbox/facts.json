@@ -1,0 +1,35 @@
+{
+  "title": "NEMA 17 Planetary Gearbox, 5:1",
+  "one_line": "A single-stage 5:1 planetary reducer for a NEMA 17 stepper: a 12T sun on the motor's 5 mm D-shaft, three 18T planets on needle bearings and a 48T ring, with the carrier's 8 mm output shaft running in two 608 bearings.",
+  "specs": [
+    "Ratio 5:1 exactly (1 + 48/12); sun and output turn the same way",
+    "Module 1, 25 deg pressure angle; sun 12T, 3 x planet 18T, ring 48T internal; centre distance 15 mm",
+    "Involute flanks as polylines (8 segments a flank), 0.06 mm backlash per flank; about 0.11 mm minimum tooth gap in a 2D check",
+    "Face width 8 mm (planets), 8.5 mm (sun)",
+    "Housing 64 mm OD, 40.5 mm motor face to output cover; 98 mm overall with a 40 mm motor",
+    "Output shaft 8 mm with 0.5 mm D-flat, 17.5 mm long, on 2 x 608 (8 x 22 x 7) bearings",
+    "Planets on 4 mm pins with HK0408-envelope drawn-cup needle bearings and thrust washers",
+    "Motor interface: 22 mm pilot, 4 x M3 x 6 on the 31 mm pattern; sun clamped by an M3 set screw on the shaft's flat",
+    "Output mounting: 32 mm spigot, 4 x M3 tapped on 44 mm PCD; housing clamped by 6 x M3 x 25"
+  ],
+  "occurrences": 39,
+  "bom_lines": 18,
+  "parameters": [
+    "out: output (carrier) angle, drives the carrier revolute",
+    "sun = out * 5: drives the motor shaft / sun revolute (derived)",
+    "planet = out * -8 / 3: planet spin relative to the carrier (derived)"
+  ],
+  "check": "0 errors, 0 warnings",
+  "interference": "109 pairs at out = 0 deg and 123 pairs at out = 36 deg, 0 interferences",
+  "poses": [
+    "out = 0 deg: solve converged, 0 interferences (109 pairs)",
+    "out = 36 deg (sun 180 deg, planets -96 deg relative to the carrier): solve converged, 0 interferences (123 pairs); saved pose, rendered"
+  ],
+  "not_verified": [
+    "No gear mate in ryucad: the 5:1 and planet kinematics are imposed by parameter expressions, not solved from tooth contact",
+    "3D interference checked at two poses only; other angles checked in 2D on the tooth profiles",
+    "No torque, tooth strength, efficiency, mass or backlash tolerance analysis",
+    "Involutes are polylines without root fillets or tip relief; threads not modelled; motor is an envelope; bearing internals simplified",
+    "No axial retainer on the outer 608, no shaft seal, no set-screw access hole"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "bearing-608-inner",
+  "pose": {
+    "origin_m": [
+      0,
+      0,
+      0.033
+    ],
+    "x": [
+      0.8090169943750782,
+      0.5877852522922931,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

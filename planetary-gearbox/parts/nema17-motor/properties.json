@@ -1,0 +1,6 @@
+{
+  "description": "NEMA 17 hybrid stepper, 42.3 mm square, 40 mm body, 31 mm M3 pattern, 22 mm pilot",
+  "format": 1,
+  "kind": "ryupdm.properties",
+  "make_buy": "buy"
+}

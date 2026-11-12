@@ -1,0 +1,16 @@
+{
+  "features": [
+    "flange",
+    "boss",
+    "bore",
+    "seat-a",
+    "seat-b",
+    "hole",
+    "cbore",
+    "screw-holes",
+    "mount-tap",
+    "mount-taps"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "motor-shaft"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "sun-gear"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

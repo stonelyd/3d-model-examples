@@ -1,0 +1,15 @@
+{
+  "angle": "360 deg",
+  "axis": "z",
+  "count": "18",
+  "features": [
+    "space"
+  ],
+  "form": "circular",
+  "format": 3,
+  "kind": "ryucad.feature",
+  "targets": [
+    "blank"
+  ],
+  "type": "pattern"
+}

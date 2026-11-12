@@ -1,0 +1,19 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "motor"
+    ]
+  },
+  "angle": "sun",
+  "b": {
+    "at": "origin",
+    "instance": [
+      "motor-shaft"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

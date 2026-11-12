@@ -1,0 +1,12 @@
+{
+  "features": [
+    "cage-profile",
+    "cage",
+    "cage-2-profile",
+    "cage-2",
+    "needle",
+    "needles"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

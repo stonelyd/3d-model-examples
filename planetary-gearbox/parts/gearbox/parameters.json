@@ -1,0 +1,9 @@
+{
+  "format": 1,
+  "kind": "ryucad.parameters",
+  "parameters": {
+    "out": "36 deg",
+    "planet": "out * -8 / 3",
+    "sun": "out * 5"
+  }
+}

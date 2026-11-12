@@ -1,0 +1,16 @@
+{
+  "features": [
+    "body",
+    "chamfer-1",
+    "chamfer-2",
+    "chamfer-3",
+    "chamfer-4",
+    "pilot",
+    "shaft-bore",
+    "tap",
+    "taps",
+    "connector"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

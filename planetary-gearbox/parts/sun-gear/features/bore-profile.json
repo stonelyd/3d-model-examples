@@ -1,0 +1,57 @@
+{
+  "constraints": {},
+  "entities": {
+    "a": {
+      "m": [
+        0.0020499999999999997,
+        0.001516575
+      ],
+      "type": "point"
+    },
+    "b": {
+      "m": [
+        0.0020499999999999997,
+        -0.001516575
+      ],
+      "type": "point"
+    },
+    "flat": {
+      "end": "a",
+      "start": "b",
+      "type": "line"
+    },
+    "o": {
+      "m": [
+        0,
+        0
+      ],
+      "type": "point"
+    },
+    "round": {
+      "center": "o",
+      "end": "b",
+      "start": "a",
+      "type": "arc"
+    }
+  },
+  "format": 2,
+  "kind": "ryucad.feature",
+  "placement": {
+    "origin": [
+      "0 mm",
+      "0 mm",
+      "5.5 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "type": "sketch"
+}

@@ -1,0 +1,24 @@
+{
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "m3x3-set-screw",
+  "pose": {
+    "origin_m": [
+      -0.002099999998514114,
+      1.176250943705787e-12,
+      0.008
+    ],
+    "x": [
+      -1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

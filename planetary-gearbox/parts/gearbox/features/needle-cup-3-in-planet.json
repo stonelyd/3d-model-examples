@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "planet-3"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "needle-cup-3"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

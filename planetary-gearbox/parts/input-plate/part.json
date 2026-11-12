@@ -1,0 +1,14 @@
+{
+  "features": [
+    "plate",
+    "pilot-recess",
+    "bore",
+    "motor-hole",
+    "motor-cbore",
+    "motor-holes",
+    "tap",
+    "taps"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}
