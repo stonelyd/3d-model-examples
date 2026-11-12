@@ -1,0 +1,24 @@
+{
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "uc205-balls",
+  "pose": {
+    "origin_m": [
+      0.11,
+      0,
+      0.08
+    ],
+    "x": [
+      0,
+      -0.24192189559973265,
+      0.9702957262759804
+    ],
+    "z": [
+      1,
+      0,
+      0
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

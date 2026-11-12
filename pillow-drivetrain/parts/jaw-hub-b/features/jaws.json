@@ -1,0 +1,15 @@
+{
+  "extent": {
+    "length": "18.5 mm",
+    "type": "blind"
+  },
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "reverse": true,
+  "sketch": "jaws-profile",
+  "targets": [
+    "body"
+  ],
+  "type": "extrude"
+}

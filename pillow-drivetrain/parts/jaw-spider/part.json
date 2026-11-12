@@ -1,0 +1,10 @@
+{
+  "features": [
+    "centre-profile",
+    "centre",
+    "legs-profile",
+    "legs"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

@@ -1,0 +1,31 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "cut",
+  "params": {
+    "x": "5 mm",
+    "y": "6 mm",
+    "z": "32 mm"
+  },
+  "placement": {
+    "origin": [
+      "6 mm",
+      "-3 mm",
+      "-45 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "shaft"
+  ],
+  "type": "box"
+}

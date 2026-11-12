@@ -1,0 +1,30 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "cut",
+  "params": {
+    "height": "3.500000 mm",
+    "radius": "6.500000 mm"
+  },
+  "placement": {
+    "origin": [
+      "-0.5 mm",
+      "0 mm",
+      "0 mm"
+    ],
+    "x": [
+      0,
+      1,
+      0
+    ],
+    "z": [
+      1,
+      0,
+      0
+    ]
+  },
+  "targets": [
+    "disc"
+  ],
+  "type": "cylinder"
+}

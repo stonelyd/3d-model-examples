@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "motor-frame"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "motor-nde-shield"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

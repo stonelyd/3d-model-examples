@@ -1,0 +1,25 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "pb2-inner-ring"
+    ],
+    "offset": {
+      "origin": [
+        "12.600000 mm",
+        "0.000000 mm",
+        "-15.500000 mm"
+      ]
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "pb2-insert-set-screw-1"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

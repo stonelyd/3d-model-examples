@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "line-shaft"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "pulley"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

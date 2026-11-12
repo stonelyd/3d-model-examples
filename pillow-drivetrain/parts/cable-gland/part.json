@@ -1,0 +1,10 @@
+{
+  "features": [
+    "hex-profile",
+    "hex",
+    "cap",
+    "cable"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

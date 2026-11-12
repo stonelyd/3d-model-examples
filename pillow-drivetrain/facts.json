@@ -1,0 +1,33 @@
+{
+ "title": "Pillow-block drive line",
+ "one_line": "An IEC 80-style foot motor driving a 25 mm keyed line shaft through an L-type jaw coupling, carried by two UCP205-style pillow blocks, with an SPA V-belt pulley on the output end, all on a fabricated steel base.",
+ "specs": [
+  "Shaft centre height 80 mm (IEC 80 shaft height); pillow blocks on 44 mm riser pads",
+  "IEC 80 B3-style motor (simplified): finned frame, 4 feet A=125 mm / B=100 mm, terminal box + gland, fan cowl, shaft \u00d819 x 40 mm keyed 6x6",
+  "L-100-style jaw coupling: \u00d864 mm hubs, bores 19 / 25 mm with keyways and M6 set screws, 6-leg elastomer spider",
+  "\u00d825 x 360 mm line shaft, 8x7 keys at coupling and pulley",
+  "2 x UCP205-style pillow blocks (H 36.5 mm, 140 x 38 mm base, slots on 105 mm centres, grease nipple), 180 mm apart",
+  "UC205-style insert: spherical \u00d852 mm outer ring, extended inner ring with 2 M6 set screws, 9 x 7.94 mm balls in a cage, 2 seals",
+  "SPA single-groove pulley, 140 mm pitch / 145.5 mm OD, 38 deg groove, keyed + set screw",
+  "2 x \u00d842 mm shaft collars; M8x40 motor bolts with washers and nuts; M12x40 pillow-block bolts with washers"
+ ],
+ "occurrences": 63,
+ "bom_lines": 30,
+ "parameters": [
+  "shaft (deg): drive-line angle; drives motor rotor and line-shaft revolutes, ball sets at shaft*0.4"
+ ],
+ "check": "0 errors, 0 warnings",
+ "interference": "163 pairs, 0 interferences (at shaft = 35 deg; also 0 at 0 deg/143 pairs and 120 deg/165 pairs)",
+ "poses": [
+  "shaft = 35 deg: solve converged, state well, 0 dof (saved pose, hero render)",
+  "shaft = 120 deg: solve converged, state well, 0 dof"
+ ],
+ "not_verified": [
+  "No load, speed, torque, power, belt tension, bearing life or mass computed (no materials set)",
+  "Motor is an envelope model (no windings or internal bearings)",
+  "Threads not modelled; tapped holes and nuts are plain bores",
+  "Spider fastened to hub A rather than floating; ball cage speed is a kinematic ratio only",
+  "Insert spherical OD is faceted in a cylindrical bore; no misalignment freedom",
+  "Dimensions are typical catalogue values, not one manufacturer's drawing"
+ ]
+}

@@ -1,0 +1,10 @@
+{
+  "features": [
+    "cowl-profile",
+    "cowl",
+    "vent",
+    "vents"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

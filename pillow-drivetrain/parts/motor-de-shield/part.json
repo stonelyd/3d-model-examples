@@ -1,0 +1,12 @@
+{
+  "features": [
+    "shield-profile",
+    "shield",
+    "tie-1",
+    "tie-2",
+    "tie-3",
+    "tie-4"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

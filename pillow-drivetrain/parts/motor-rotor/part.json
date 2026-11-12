@@ -1,0 +1,14 @@
+{
+  "features": [
+    "shaft",
+    "core-profile",
+    "core",
+    "fan-hub-profile",
+    "fan-hub",
+    "blade",
+    "blades",
+    "keyway"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

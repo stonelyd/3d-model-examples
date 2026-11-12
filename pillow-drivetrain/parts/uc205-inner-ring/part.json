@@ -1,0 +1,12 @@
+{
+  "features": [
+    "ring-profile",
+    "ring",
+    "groove-profile",
+    "groove",
+    "set-hole-1",
+    "set-hole-2"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

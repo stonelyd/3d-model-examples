@@ -1,0 +1,14 @@
+{
+  "extent": {
+    "length": "5.000000 mm",
+    "type": "blind"
+  },
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "sketch": "hex-profile",
+  "targets": [
+    "thread"
+  ],
+  "type": "extrude"
+}

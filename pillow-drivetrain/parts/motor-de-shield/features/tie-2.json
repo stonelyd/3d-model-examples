@@ -1,0 +1,30 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "params": {
+    "height": "4.500000 mm",
+    "radius": "5.000000 mm"
+  },
+  "placement": {
+    "origin": [
+      "-48.083261 mm",
+      "48.083261 mm",
+      "-55.5 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "shield"
+  ],
+  "type": "cylinder"
+}

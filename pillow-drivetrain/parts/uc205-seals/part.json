@@ -1,0 +1,10 @@
+{
+  "features": [
+    "seal-1-profile",
+    "seal-1",
+    "seal-2-profile",
+    "seal-2"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

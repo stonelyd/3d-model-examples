@@ -1,0 +1,19 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "pb2-housing"
+    ]
+  },
+  "angle": "shaft * 0.4",
+  "b": {
+    "at": "origin",
+    "instance": [
+      "pb2-balls"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

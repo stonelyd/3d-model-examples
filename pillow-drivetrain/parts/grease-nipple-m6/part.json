@@ -1,0 +1,11 @@
+{
+  "features": [
+    "thread",
+    "hex-profile",
+    "hex",
+    "neck",
+    "head"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

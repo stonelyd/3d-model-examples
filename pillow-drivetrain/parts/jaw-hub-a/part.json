@@ -1,0 +1,12 @@
+{
+  "features": [
+    "body",
+    "jaws-profile",
+    "jaws",
+    "bore",
+    "keyway",
+    "set-hole"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

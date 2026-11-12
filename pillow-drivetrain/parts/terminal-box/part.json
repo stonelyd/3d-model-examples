@@ -1,0 +1,12 @@
+{
+  "features": [
+    "box",
+    "lid",
+    "lid-screw-1",
+    "lid-screw-2",
+    "lid-screw-3",
+    "lid-screw-4"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

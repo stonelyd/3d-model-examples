@@ -1,0 +1,9 @@
+{
+  "features": [
+    "shaft",
+    "keyway-coupling",
+    "keyway-pulley"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

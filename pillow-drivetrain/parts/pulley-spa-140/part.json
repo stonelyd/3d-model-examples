@@ -1,0 +1,12 @@
+{
+  "features": [
+    "body-profile",
+    "body",
+    "lighten",
+    "lightening",
+    "keyway",
+    "set-hole"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

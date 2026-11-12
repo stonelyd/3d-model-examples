@@ -1,0 +1,31 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "params": {
+    "x": "8 mm",
+    "y": "60 mm",
+    "z": "18 mm"
+  },
+  "placement": {
+    "origin": [
+      "-23 mm",
+      "-30 mm",
+      "-9 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "ring"
+  ],
+  "type": "box"
+}

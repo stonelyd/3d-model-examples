@@ -1,0 +1,26 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "pb1-housing"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "0.000000 mm",
+        "-110.000000 mm"
+      ]
+    }
+  },
+  "angle": "shaft",
+  "b": {
+    "at": "origin",
+    "instance": [
+      "line-shaft"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

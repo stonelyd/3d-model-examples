@@ -1,0 +1,24 @@
+{
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "pulley-spa-140",
+  "pose": {
+    "origin_m": [
+      0,
+      0,
+      0.08
+    ],
+    "x": [
+      0,
+      -0.5735764363510479,
+      0.8191520442889906
+    ],
+    "z": [
+      1,
+      0,
+      0
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

@@ -1,0 +1,9 @@
+{
+  "features": [
+    "collar-profile",
+    "collar",
+    "set-hole"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

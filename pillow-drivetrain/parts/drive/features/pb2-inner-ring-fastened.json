@@ -1,0 +1,26 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "line-shaft"
+    ],
+    "offset": {
+      "flip": true,
+      "origin": [
+        "0.000000 mm",
+        "0.000000 mm",
+        "290.000000 mm"
+      ]
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "pb2-inner-ring"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

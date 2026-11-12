@@ -1,0 +1,18 @@
+{
+  "features": [
+    "ring-profile",
+    "ring",
+    "base",
+    "web",
+    "bore",
+    "slot-1-mid",
+    "slot-1-e1",
+    "slot-1-e2",
+    "slot-2-mid",
+    "slot-2-e1",
+    "slot-2-e2",
+    "grease-hole"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}
