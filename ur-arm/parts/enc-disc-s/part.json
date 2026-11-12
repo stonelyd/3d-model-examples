@@ -1,0 +1,10 @@
+{
+  "features": [
+    "disc-profile",
+    "disc",
+    "slit",
+    "slits"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}
