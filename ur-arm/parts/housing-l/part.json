@@ -1,0 +1,15 @@
+{
+  "features": [
+    "body-profile",
+    "body",
+    "standoff-1",
+    "standoff-2",
+    "standoff-3",
+    "cap-tap",
+    "cap-taps",
+    "cs-hole",
+    "cs-holes"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}
