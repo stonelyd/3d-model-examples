@@ -1,0 +1,25 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "plug-top"
+    ],
+    "offset": {
+      "origin": [
+        "-7.620000 mm",
+        "22.300000 mm",
+        "45.500000 mm"
+      ]
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "tb-screw-top-1"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

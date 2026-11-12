@@ -1,0 +1,31 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "cut",
+  "params": {
+    "x": "0.600000 mm",
+    "y": "1.000000 mm",
+    "z": "2.400000 mm"
+  },
+  "placement": {
+    "origin": [
+      "-0.3 mm",
+      "-0.8 mm",
+      "-1.2 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "shank"
+  ],
+  "type": "box"
+}

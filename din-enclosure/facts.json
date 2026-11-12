@@ -1,0 +1,32 @@
+{
+  "title": "4-module DIN-rail controller enclosure",
+  "one_line": "70 mm (4-module) injection-moulding-style DIN-rail enclosure with sprung latch slider, snap-fit cover, light pipes, controller PCB on screw bosses, two pluggable 5.08 mm terminal blocks and USB-C, clipped on a TS35 rail; the latch is driven open/closed by one parameter.",
+  "specs": [
+    "Envelope 70 x 90 x 62.2 mm (W x H x D from rail face), 45 mm front nose (DIN 43880 style)",
+    "2.0 mm walls, 1.2 x 5 mm back-wall ribs, Ø6 mm PCB bosses with gussets and Ø2.2 mm pilot holes",
+    "TS35 x 7.5 top-hat rail (EN 60715 proportions), 1 mm thick, 100 mm section, 15 x 5.2 mm slots at 25 mm pitch",
+    "Rail clip: fixed top hook + sliding latch nose, both with lead-in chamfers, 0.3 mm off the flange back faces",
+    "Latch slider in a T-slot track (0.2 mm clearance), screwdriver tab, two moulded meander spring legs; 6 mm pull clears the flange by 3.5 mm",
+    "Cover: 4 cantilever snap hooks into base windows, 56 x 16 x 0.5 mm label recess with label, 4 light-pipe holes, 18 vent slots 2 x 13 mm",
+    "PCB 64 x 80 x 1.6 mm, 4 x pan-head M2.5 x 8 self-tapping screws",
+    "2 x pluggable 4-pole 5.08 mm terminal blocks (header with pins, plug with wire entries, 8 x M3 clamp screws) through top/bottom wall windows",
+    "USB-C receptacle (8.94 x 3.26 mm shell with tongue) behind a 9.6 x 3.9 mm bottom-wall slot",
+    "4 x Ø2.8 mm light pipes with retaining collars over PCB LEDs"
+  ],
+  "occurrences": 27,
+  "bom_lines": 12,
+  "parameters": ["latch (assembly din-enclosure): latch slider travel, 0 mm closed .. 6 mm pulled open (slider distance clamped 0..7 mm, moves -z)"],
+  "check": "0 errors, 0 warnings",
+  "interference": "54 pairs, 0 interferences (latch=0 mm); 53 pairs, 0 interferences (latch=6 mm)",
+  "poses": [
+    "latch=0 mm (closed on rail): assembly solve converged, state well, 0 dof; latch 0.3 mm from rail",
+    "latch=6 mm (pulled open): assembly solve converged, state well, 0 dof; latch nose 3.5 mm clear of rail"
+  ],
+  "not_verified": [
+    "No mass, material, latch force, spring rate, snap-fit strain, IP or thermal rating computed or claimed",
+    "Spring legs drawn undeflected and not in contact; spring return not modelled; travel limit is the parameter clamp, not a physical stop",
+    "Screws unthreaded (self-tapping shanks at 2.0 mm core); parts sit with 0.2-0.5 mm gaps instead of contact",
+    "No draft, fillets or tooling features; moulding-style layout only, not DFM-checked",
+    "PCB components are blocks; terminal block, USB-C and rail follow catalogue proportions, not a specific manufacturer's drawing"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "features": [
+    "plate",
+    "nose-profile",
+    "nose",
+    "tab",
+    "driver-slot",
+    "spring-r-bar1",
+    "spring-r-bar2",
+    "spring-r-bar3",
+    "spring-r-bar4",
+    "spring-r-bar5",
+    "spring-r-link1",
+    "spring-r-link2",
+    "spring-r-link3",
+    "spring-r-link4",
+    "spring-l-bar1",
+    "spring-l-bar2",
+    "spring-l-bar3",
+    "spring-l-bar4",
+    "spring-l-bar5",
+    "spring-l-link1",
+    "spring-l-link2",
+    "spring-l-link3",
+    "spring-l-link4"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

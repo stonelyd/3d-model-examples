@@ -1,0 +1,20 @@
+{
+  "features": [
+    "rail-profile",
+    "rail",
+    "slot1",
+    "slot1-a",
+    "slot1-b",
+    "slot2",
+    "slot2-a",
+    "slot2-b",
+    "slot3",
+    "slot3-a",
+    "slot3-b",
+    "slot4",
+    "slot4-a",
+    "slot4-b"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

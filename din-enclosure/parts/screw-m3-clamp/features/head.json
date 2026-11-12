@@ -1,0 +1,30 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "params": {
+    "height": "2.000000 mm",
+    "radius": "1.700000 mm"
+  },
+  "placement": {
+    "origin": [
+      "0 mm",
+      "-2 mm",
+      "0 mm"
+    ],
+    "x": [
+      0,
+      0,
+      1
+    ],
+    "z": [
+      0,
+      1,
+      0
+    ]
+  },
+  "targets": [
+    "shank"
+  ],
+  "type": "cylinder"
+}

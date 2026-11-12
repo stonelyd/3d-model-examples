@@ -1,0 +1,22 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "pcb"
+    ],
+    "offset": {
+      "flip": true,
+      "rotate": "180 deg"
+    }
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "header-bottom"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

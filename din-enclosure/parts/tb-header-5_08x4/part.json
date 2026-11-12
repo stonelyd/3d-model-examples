@@ -1,0 +1,12 @@
+{
+  "features": [
+    "body",
+    "socket",
+    "pin1",
+    "pin2",
+    "pin3",
+    "pin4"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "header-bottom"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "plug-bottom"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

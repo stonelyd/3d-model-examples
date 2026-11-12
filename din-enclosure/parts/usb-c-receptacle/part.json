@@ -1,0 +1,13 @@
+{
+  "features": [
+    "shell-mid",
+    "shell-l",
+    "shell-r",
+    "mouth-mid",
+    "mouth-l",
+    "mouth-r",
+    "tongue"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

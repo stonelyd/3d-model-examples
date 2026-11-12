@@ -1,0 +1,25 @@
+{
+  "features": [
+    "board",
+    "mcu",
+    "crystal",
+    "inductor",
+    "buck-ic",
+    "cap-bulk",
+    "rs485",
+    "flash",
+    "ldo",
+    "esd",
+    "tvs",
+    "led1",
+    "led2",
+    "led3",
+    "led4",
+    "hole1",
+    "hole2",
+    "hole3",
+    "hole4"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

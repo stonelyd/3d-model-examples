@@ -1,0 +1,10 @@
+{
+  "features": [
+    "shank",
+    "head",
+    "recess-a",
+    "recess-b"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

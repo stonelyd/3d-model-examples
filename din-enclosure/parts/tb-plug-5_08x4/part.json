@@ -1,0 +1,24 @@
+{
+  "features": [
+    "insert",
+    "head",
+    "pin-socket1",
+    "wire-entry1",
+    "screw-bore1",
+    "screw-hole1",
+    "pin-socket2",
+    "wire-entry2",
+    "screw-bore2",
+    "screw-hole2",
+    "pin-socket3",
+    "wire-entry3",
+    "screw-bore3",
+    "screw-hole3",
+    "pin-socket4",
+    "wire-entry4",
+    "screw-bore4",
+    "screw-hole4"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}
