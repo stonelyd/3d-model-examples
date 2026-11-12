@@ -1,0 +1,12 @@
+{
+  "features": [
+    "plate-profile",
+    "plate",
+    "cable",
+    "pedestal",
+    "cuff",
+    "seat"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

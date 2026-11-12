@@ -1,0 +1,10 @@
+{
+  "features": [
+    "plate",
+    "bridge",
+    "cuff",
+    "seat"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

@@ -1,0 +1,11 @@
+{
+  "features": [
+    "boss",
+    "tube",
+    "cuff",
+    "bore",
+    "seat"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

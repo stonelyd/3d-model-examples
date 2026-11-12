@@ -1,0 +1,12 @@
+{
+  "features": [
+    "flange-profile",
+    "flange",
+    "centre",
+    "m6",
+    "m6-holes",
+    "pin"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

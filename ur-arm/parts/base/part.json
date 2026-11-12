@@ -1,0 +1,12 @@
+{
+  "features": [
+    "plate-profile",
+    "plate",
+    "pocket",
+    "pockets",
+    "mount",
+    "mounts"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}
