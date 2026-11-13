@@ -1,0 +1,39 @@
+{
+  "default": "walnut",
+  "format": 1,
+  "kind": "ryucad.materials",
+  "materials": {
+    "brass": {
+      "colour": "#b98a3e",
+      "density": "8500 kg/m^3"
+    },
+    "earth-rock": {
+      "colour": "#3f6fb5",
+      "density": "5514 kg/m^3"
+    },
+    "gold": {
+      "colour": "#d9a441",
+      "density": "19300 kg/m^3"
+    },
+    "mars-rock": {
+      "colour": "#b5533c",
+      "density": "3933 kg/m^3"
+    },
+    "mercury-rock": {
+      "colour": "#9c8e82",
+      "density": "5427 kg/m^3"
+    },
+    "moon-rock": {
+      "colour": "#cfcfcf",
+      "density": "3344 kg/m^3"
+    },
+    "venus-rock": {
+      "colour": "#d9b380",
+      "density": "5243 kg/m^3"
+    },
+    "walnut": {
+      "colour": "#5a3a22",
+      "density": "640 kg/m^3"
+    }
+  }
+}

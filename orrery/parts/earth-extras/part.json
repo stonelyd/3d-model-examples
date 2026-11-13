@@ -1,0 +1,9 @@
+{
+  "features": [
+    "rod",
+    "moon-arm",
+    "moon-cup"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

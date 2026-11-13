@@ -1,0 +1,25 @@
+{
+  "fixed": true,
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "gear-18",
+  "pose": {
+    "origin_m": [
+      0.0178,
+      -0.01592,
+      0.03
+    ],
+    "x": [
+      0.999903,
+      0.013927,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

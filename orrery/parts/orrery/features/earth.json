@@ -1,0 +1,25 @@
+{
+  "fixed": true,
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "earth",
+  "pose": {
+    "origin_m": [
+      -0.04371,
+      -0.052090000000000004,
+      0.1011
+    ],
+    "x": [
+      -0.642788,
+      -0.766044,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

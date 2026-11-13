@@ -1,0 +1,40 @@
+{
+  "features": [
+    "base",
+    "column",
+    "sun",
+    "gear-a",
+    "gear-b",
+    "gear-c",
+    "arm-mercury",
+    "mercury",
+    "arm-venus",
+    "venus",
+    "arm-earth",
+    "earth",
+    "earth-extras",
+    "moon",
+    "arm-mars",
+    "mars"
+  ],
+  "format": 3,
+  "items": {
+    "arm-earth": 10,
+    "arm-mars": 14,
+    "arm-mercury": 6,
+    "arm-venus": 8,
+    "base": 1,
+    "column": 2,
+    "earth": 11,
+    "earth-extras": 12,
+    "gear-18": 5,
+    "gear-24": 4,
+    "mars": 15,
+    "mercury": 7,
+    "moon": 13,
+    "sun": 3,
+    "venus": 9
+  },
+  "kind": "ryucad.part",
+  "part_kind": "assembly"
+}

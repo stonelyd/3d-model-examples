@@ -1,0 +1,9 @@
+{
+  "features": [
+    "shaft",
+    "collar",
+    "top-collar"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

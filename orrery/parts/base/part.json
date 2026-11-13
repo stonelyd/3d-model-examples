@@ -1,0 +1,12 @@
+{
+  "features": [
+    "profile",
+    "body",
+    "post-1",
+    "post-2",
+    "post-3",
+    "plate"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

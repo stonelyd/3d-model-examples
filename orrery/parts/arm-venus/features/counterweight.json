@@ -1,0 +1,29 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "params": {
+    "radius": "4.5 mm"
+  },
+  "placement": {
+    "origin": [
+      "-15 mm",
+      "0 mm",
+      "0 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "bar"
+  ],
+  "type": "sphere"
+}

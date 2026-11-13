@@ -1,0 +1,25 @@
+{
+  "fixed": true,
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "arm-venus",
+  "pose": {
+    "origin_m": [
+      0,
+      0,
+      0.078
+    ],
+    "x": [
+      -0.573576,
+      0.819152,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

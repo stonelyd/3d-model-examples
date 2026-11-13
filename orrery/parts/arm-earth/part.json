@@ -1,0 +1,12 @@
+{
+  "features": [
+    "bar",
+    "hub",
+    "bore",
+    "counterweight",
+    "cup",
+    "rod-hole"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

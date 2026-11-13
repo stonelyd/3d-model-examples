@@ -1,0 +1,25 @@
+{
+  "fixed": true,
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "arm-earth",
+  "pose": {
+    "origin_m": [
+      0,
+      0,
+      0.094
+    ],
+    "x": [
+      -0.642788,
+      -0.766044,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

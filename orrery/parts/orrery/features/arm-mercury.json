@@ -1,0 +1,25 @@
+{
+  "fixed": true,
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "arm-mercury",
+  "pose": {
+    "origin_m": [
+      0,
+      0,
+      0.062
+    ],
+    "x": [
+      0.965926,
+      0.258819,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

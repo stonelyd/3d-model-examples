@@ -1,0 +1,25 @@
+{
+  "fixed": true,
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "arm-mars",
+  "pose": {
+    "origin_m": [
+      0,
+      0,
+      0.11
+    ],
+    "x": [
+      0.819152,
+      -0.573576,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

@@ -1,0 +1,9 @@
+{
+  "features": [
+    "outline",
+    "disc",
+    "arbor"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}
