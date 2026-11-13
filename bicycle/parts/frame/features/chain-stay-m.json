@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "kind": "ryucad.feature",
+  "params": {
+    "height": "382.59332687886393 mm",
+    "radius": "7 mm"
+  },
+  "placement": {
+    "origin": [
+      "-70 mm",
+      "-28 mm",
+      "288 mm"
+    ],
+    "x": [
+      -0.081654,
+      0,
+      -0.996661
+    ],
+    "z": [
+      -0.996175,
+      -0.031205,
+      0.081614
+    ]
+  },
+  "type": "cylinder"
+}

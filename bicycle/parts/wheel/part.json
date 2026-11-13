@@ -1,0 +1,21 @@
+{
+  "features": [
+    "hub",
+    "bore",
+    "spoke-1",
+    "spoke-2",
+    "spoke-3",
+    "spoke-4",
+    "spoke-5",
+    "spoke-6",
+    "spoke-7",
+    "spoke-8",
+    "spoke-9",
+    "spoke-10",
+    "spoke-11",
+    "spoke-12",
+    "rim"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

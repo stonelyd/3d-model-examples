@@ -1,0 +1,30 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "params": {
+    "height": "276.96671041086745 mm",
+    "radius": "1.1 mm"
+  },
+  "placement": {
+    "origin": [
+      "-9.510565 mm",
+      "-31 mm",
+      "-3.09017 mm"
+    ],
+    "x": [
+      0.506528,
+      0,
+      -0.862224
+    ],
+    "z": [
+      -0.856806,
+      0.111927,
+      -0.503345
+    ]
+  },
+  "targets": [
+    "hub"
+  ],
+  "type": "cylinder"
+}

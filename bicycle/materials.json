@@ -1,0 +1,18 @@
+{
+  "format": 1,
+  "kind": "ryucad.materials",
+  "materials": {
+    "aluminium": {
+      "colour": "#a41f24",
+      "density": "2700 kg/m^3"
+    },
+    "rubber": {
+      "colour": "#1c1c1e",
+      "density": "1100 kg/m^3"
+    },
+    "wheel-metal": {
+      "colour": "#c8ccd2",
+      "density": "2700 kg/m^3"
+    }
+  }
+}

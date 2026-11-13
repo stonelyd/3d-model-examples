@@ -1,0 +1,123 @@
+{
+  "format": 1,
+  "kind": "ryucad.appearance",
+  "solids": {
+    "axle-f": {
+      "colour": "#8a8f98"
+    },
+    "axle-r": {
+      "colour": "#8a8f98"
+    },
+    "bar": {
+      "colour": "#c8ccd2"
+    },
+    "bb-axle": {
+      "colour": "#8a8f98"
+    },
+    "bb-shell": {
+      "colour": "#a41f24"
+    },
+    "chain-bottom": {
+      "colour": "#2c2c2e"
+    },
+    "chain-stay-m": {
+      "colour": "#a41f24"
+    },
+    "chain-stay-p": {
+      "colour": "#a41f24"
+    },
+    "chain-top": {
+      "colour": "#2c2c2e"
+    },
+    "cluster": {
+      "colour": "#a41f24"
+    },
+    "cog": {
+      "colour": "#8a8f98"
+    },
+    "crank-m": {
+      "colour": "#3a3a3e"
+    },
+    "crank-p": {
+      "colour": "#3a3a3e"
+    },
+    "crown": {
+      "colour": "#a41f24"
+    },
+    "down": {
+      "colour": "#a41f24"
+    },
+    "dropout-f-m": {
+      "colour": "#a41f24"
+    },
+    "dropout-f-p": {
+      "colour": "#a41f24"
+    },
+    "dropout-r-m": {
+      "colour": "#a41f24"
+    },
+    "dropout-r-p": {
+      "colour": "#a41f24"
+    },
+    "fork-m": {
+      "colour": "#a41f24"
+    },
+    "fork-p": {
+      "colour": "#a41f24"
+    },
+    "grip-m": {
+      "colour": "#26262a"
+    },
+    "grip-p": {
+      "colour": "#26262a"
+    },
+    "head-tube": {
+      "colour": "#a41f24"
+    },
+    "kickstand": {
+      "colour": "#26262a"
+    },
+    "nut-f-m": {
+      "colour": "#8a8f98"
+    },
+    "nut-f-p": {
+      "colour": "#8a8f98"
+    },
+    "nut-r-m": {
+      "colour": "#8a8f98"
+    },
+    "nut-r-p": {
+      "colour": "#8a8f98"
+    },
+    "pedal-m": {
+      "colour": "#26262a"
+    },
+    "pedal-p": {
+      "colour": "#26262a"
+    },
+    "ring": {
+      "colour": "#8a8f98"
+    },
+    "saddle": {
+      "colour": "#6b4226"
+    },
+    "seat-post": {
+      "colour": "#3a3a3e"
+    },
+    "seat-stay-m": {
+      "colour": "#a41f24"
+    },
+    "seat-stay-p": {
+      "colour": "#a41f24"
+    },
+    "seat-tube": {
+      "colour": "#a41f24"
+    },
+    "stem": {
+      "colour": "#c8ccd2"
+    },
+    "top": {
+      "colour": "#a41f24"
+    }
+  }
+}

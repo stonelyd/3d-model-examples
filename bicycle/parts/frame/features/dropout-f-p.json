@@ -1,0 +1,27 @@
+{
+  "format": 1,
+  "kind": "ryucad.feature",
+  "params": {
+    "x": "44 mm",
+    "y": "5 mm",
+    "z": "40 mm"
+  },
+  "placement": {
+    "origin": [
+      "514 mm",
+      "38 mm",
+      "314 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "type": "box"
+}

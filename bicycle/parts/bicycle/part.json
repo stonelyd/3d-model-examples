@@ -1,0 +1,17 @@
+{
+  "features": [
+    "frame",
+    "wheel-front",
+    "tyre-front",
+    "wheel-rear",
+    "tyre-rear"
+  ],
+  "format": 3,
+  "items": {
+    "frame": 1,
+    "tyre": 3,
+    "wheel": 2
+  },
+  "kind": "ryucad.part",
+  "part_kind": "assembly"
+}
