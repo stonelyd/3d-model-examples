@@ -1,0 +1,21 @@
+{
+  "features": [
+    "backplate",
+    "driver",
+    "driver-shaft",
+    "star-shaft",
+    "roller",
+    "star"
+  ],
+  "format": 3,
+  "items": {
+    "backplate": 1,
+    "driver": 2,
+    "driver-shaft": 3,
+    "roller": 5,
+    "star": 6,
+    "star-shaft": 4
+  },
+  "kind": "ryucad.part",
+  "part_kind": "assembly"
+}

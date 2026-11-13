@@ -1,0 +1,25 @@
+{
+  "fixed": true,
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "star",
+  "pose": {
+    "origin_m": [
+      0.06,
+      0.016,
+      0.07100000000000001
+    ],
+    "x": [
+      -0.8660254,
+      0,
+      -0.5
+    ],
+    "z": [
+      0,
+      1,
+      0
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

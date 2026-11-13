@@ -1,0 +1,11 @@
+{
+  "features": [
+    "hub",
+    "locking-disc",
+    "pin-arm",
+    "pin-stud",
+    "bore"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

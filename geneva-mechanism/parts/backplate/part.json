@@ -1,0 +1,17 @@
+{
+  "features": [
+    "plate",
+    "boss-driver",
+    "boss-driver-bore",
+    "boss-star",
+    "boss-star-bore",
+    "foot--30",
+    "foot-90",
+    "bolt--45-50",
+    "bolt--45--50",
+    "bolt-105-50",
+    "bolt-105--50"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

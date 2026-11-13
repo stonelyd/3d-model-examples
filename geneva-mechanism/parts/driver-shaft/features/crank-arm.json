@@ -1,0 +1,31 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "params": {
+    "x": "34 mm",
+    "y": "9 mm",
+    "z": "5 mm"
+  },
+  "placement": {
+    "origin": [
+      "-8 mm",
+      "-4.5 mm",
+      "-28 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "shaft"
+  ],
+  "type": "box"
+}

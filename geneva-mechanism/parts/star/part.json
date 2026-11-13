@@ -1,0 +1,15 @@
+{
+  "features": [
+    "blank",
+    "disc",
+    "hub",
+    "bore",
+    "slot-profile",
+    "slot",
+    "slots",
+    "notch",
+    "notches"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

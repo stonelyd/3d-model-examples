@@ -1,0 +1,25 @@
+{
+  "fixed": true,
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "roller",
+  "pose": {
+    "origin_m": [
+      -0.015,
+      0.0158,
+      0.0450192
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      1,
+      0
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

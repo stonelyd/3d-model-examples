@@ -1,0 +1,10 @@
+{
+  "features": [
+    "shaft",
+    "collar",
+    "pointer-disc",
+    "pointer"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

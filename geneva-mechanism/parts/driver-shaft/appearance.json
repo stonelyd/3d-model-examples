@@ -1,0 +1,12 @@
+{
+  "format": 1,
+  "kind": "ryucad.appearance",
+  "part": {
+    "colour": "#8a8f98"
+  },
+  "solids": {
+    "grip": {
+      "colour": "#7b4b2a"
+    }
+  }
+}
