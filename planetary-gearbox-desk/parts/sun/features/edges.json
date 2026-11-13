@@ -1,0 +1,21 @@
+{
+  "format": 3,
+  "groups": [
+    {
+      "d": "0.4 mm",
+      "edges": [
+        {
+          "feature": "disc",
+          "name": "f7278139acd7503a0682290a27b1d4d1"
+        },
+        {
+          "feature": "disc",
+          "name": "4b02eae67ebd71f55af7245897cfbbcf"
+        }
+      ],
+      "form": "equal"
+    }
+  ],
+  "kind": "ryucad.feature",
+  "type": "chamfer"
+}

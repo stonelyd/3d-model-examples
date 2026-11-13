@@ -1,0 +1,27 @@
+{
+  "bom_lines": 8,
+  "check": "0 errors, 8 warnings (instances_interfere point contacts <= 3.6e-10 m^3 at tooth meshes and pin/bore touches)",
+  "interference": "23 pairs: 15 clear, 8 mesh-estimate contacts <= 3.6e-10 m^3 (point contact at gear meshes, not real overlap)",
+  "not_verified": [
+    "Gear teeth are trapezoid approximations, not involute profiles; no backlash or load analysis",
+    "Planet revolute mates refused by the solver while instances are fixed; planets sit at computed centres",
+    "Interference volumes are mesh estimates and read as tiny signed noise on touching faces",
+    "Rebuilt on ryucad 0.9.0: check and mass match the 0.8.3 build; no other 0.9.0 differences observed",
+    "Running `ryucad check` inside this repo adds 4 warnings about the parent checkout's missing ryucad git drivers/hooks (.gitattributes, merge driver, pre-commit hooks) - a property of the repo, not the model; the quoted check result is the model's own"
+  ],
+  "occurrences": 8,
+  "one_line": "A planetary gearbox desk model: 18T steel sun, three 12T bronze planets on an aluminium carrier, fixed 42T cast-iron ring gear, crank-handle input and a cast-iron stand; rebuilt with ryucad 0.9.0, matching the 0.8.3 build's mass exactly.",
+  "parameters": [],
+  "poses": [
+    "assembled: gears meshed tooth-into-gap, crank handle below the stand",
+    "exploded 'apart': sun, planets, ring, carrier and input separated along the axis (images/detail.png)"
+  ],
+  "specs": [
+    "18 + 2 x 12 = 42: sun 18T pitch radius 18 mm, planets 12T pitch radius 12 mm, ring 42T internal; tooth-into-gap phasing at every mesh",
+    "Mass 2.080 kg (2.079922554 kg), volume 298,902 mm^3, centre of mass (0.16, -33.91, -4.03) mm",
+    "Mates solved: sun fastened to input shaft, ring fastened to stand, input revolute in the stand bore; planet revolutes refused (assembly_overconstrained) on fixed instances",
+    "Ring fixed gives a sun-to-carrier ratio of 1 + 42/18 = 3.33 : 1 from tooth counts (kinematics not simulated)",
+    "Exploded view 'apart' saved (carrier -45 mm, input -95 mm, ring +50 mm, planets +100 mm, sun +150 mm)"
+  ],
+  "title": "Planetary gearbox desk model"
+}

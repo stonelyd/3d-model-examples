@@ -1,0 +1,11 @@
+{
+  "features": [
+    "shaft",
+    "collar",
+    "crank-arm",
+    "handle",
+    "grip"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

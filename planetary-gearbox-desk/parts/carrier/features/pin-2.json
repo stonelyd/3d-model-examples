@@ -1,0 +1,30 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "params": {
+    "height": "20 mm",
+    "radius": "4 mm"
+  },
+  "placement": {
+    "origin": [
+      "-15 mm",
+      "25.980762 mm",
+      "-8 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "plate"
+  ],
+  "type": "cylinder"
+}

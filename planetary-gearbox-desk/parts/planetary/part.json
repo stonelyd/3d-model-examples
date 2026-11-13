@@ -1,0 +1,28 @@
+{
+  "features": [
+    "stand",
+    "ring",
+    "carrier",
+    "sun",
+    "input",
+    "planet-1",
+    "planet-2",
+    "planet-3",
+    "sun-key",
+    "ring-key",
+    "input-turn"
+  ],
+  "format": 3,
+  "items": {
+    "carrier": 3,
+    "input": 5,
+    "planet-1": 6,
+    "planet-2": 7,
+    "planet-3": 8,
+    "ring": 2,
+    "stand": 1,
+    "sun": 4
+  },
+  "kind": "ryucad.part",
+  "part_kind": "assembly"
+}

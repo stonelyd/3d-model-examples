@@ -1,0 +1,24 @@
+{
+  "a": {
+    "at": {
+      "feature": "plate",
+      "name": "e76022b804ad88f54cedfde0565106d3"
+    },
+    "instance": [
+      "stand"
+    ]
+  },
+  "b": {
+    "at": {
+      "feature": "shaft",
+      "name": "3dfa36186822b1dcb0dfecde190c872c"
+    },
+    "instance": [
+      "input"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

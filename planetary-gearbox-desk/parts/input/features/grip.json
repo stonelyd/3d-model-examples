@@ -1,0 +1,30 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "params": {
+    "height": "12 mm",
+    "radius": "5.5 mm"
+  },
+  "placement": {
+    "origin": [
+      "22 mm",
+      "0 mm",
+      "-44 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "shaft"
+  ],
+  "type": "cylinder"
+}

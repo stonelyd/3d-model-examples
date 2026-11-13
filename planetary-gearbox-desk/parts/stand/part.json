@@ -1,0 +1,20 @@
+{
+  "features": [
+    "plate",
+    "bore",
+    "bolt-1",
+    "bolt-2",
+    "bolt-3",
+    "bolt-4",
+    "bolt-5",
+    "bolt-6",
+    "column",
+    "base",
+    "foot--60--30",
+    "foot--60-30",
+    "foot-60--30",
+    "foot-60-30"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

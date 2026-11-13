@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "kind": "ryucad.explode",
+  "steps": [
+    {
+      "instances": [
+        "carrier"
+      ],
+      "translate": [
+        "0 mm",
+        "0 mm",
+        "-45 mm"
+      ]
+    },
+    {
+      "instances": [
+        "input"
+      ],
+      "translate": [
+        "0 mm",
+        "0 mm",
+        "-95 mm"
+      ]
+    },
+    {
+      "instances": [
+        "ring"
+      ],
+      "translate": [
+        "0 mm",
+        "0 mm",
+        "50 mm"
+      ]
+    },
+    {
+      "instances": [
+        "planet-1",
+        "planet-2",
+        "planet-3"
+      ],
+      "translate": [
+        "0 mm",
+        "0 mm",
+        "100 mm"
+      ]
+    },
+    {
+      "instances": [
+        "sun"
+      ],
+      "translate": [
+        "0 mm",
+        "0 mm",
+        "150 mm"
+      ]
+    }
+  ]
+}
