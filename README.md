@@ -30,3 +30,26 @@ Every mechanism passes `ryucad check` with 0 errors and 0 warnings, has 0 interf
 ## Move one
     ryucad param set ball-valve "valve=90 deg"
     ryucad assembly solve ball-valve
+
+## Ten more, by Lil Dave
+
+Built the same way — ryucad CLI only (v0.9.0 release), one folder per model with its
+generator in `tools/`, renders in `images/`, a STEP in `export/` and a `facts.json`.
+Every model passes `ryucad check` with 0 errors, and after a clearance pass every
+assembly also reports **0 interfering pairs** (the planetary desk box shows point
+contacts only, <= 3.6e-10 m^3 at its gear meshes). Where Hark's set is all steel
+mechanisms, this set spends its effort on meshing geometry and fitted clearances —
+and colour.
+
+| Model | Preview | Occurrences | Interference |
+|---|---|---|---|
+| [Open differential (bevel demonstrator)](differential/) | ![](differential/images/hero.png) | 14 | 53 pairs, 0 interferences |
+| [Six-slot Geneva indexing mechanism](geneva-mechanism/) | ![](geneva-mechanism/images/hero.png) | 6 | 9 pairs, 0 interferences |
+| [7-cylinder radial aircraft engine](radial-engine/) | ![](radial-engine/images/hero.png) | 12 | 28 pairs, 0 interferences |
+| [0-6-0 saddle-tank steam locomotive](steam-locomotive/) | ![](steam-locomotive/images/hero.png) | 12 | 75 pairs, 0 interferences |
+| [Brass orrery](orrery/) | ![](orrery/images/hero.png) | 16 | 18 pairs, 0 interferences |
+| [Planetary gearbox desk model](planetary-gearbox-desk/) | ![](planetary-gearbox-desk/images/hero.png) | 8 | 23 pairs, point contacts only |
+| [Three-blade wind turbine](wind-turbine/) | ![](wind-turbine/images/hero.png) | 17 | 16 pairs, 0 interferences |
+| [Road bicycle](bicycle/) | ![](bicycle/images/hero.png) | 5 | 27 pairs, 0 interferences |
+| [Articulated desk lamp](desk-lamp/) | ![](desk-lamp/images/hero.png) | 9 | 24 pairs, 0 interferences |
+| [Staunton chess set — ivory and ebony](chess-set/) | ![](chess-set/images/hero.png) | 33 | 82 pairs, 0 interferences |
