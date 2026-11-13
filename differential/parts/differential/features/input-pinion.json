@@ -1,0 +1,25 @@
+{
+  "fixed": true,
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "input-pinion",
+  "pose": {
+    "origin_m": [
+      -0.038,
+      0,
+      -0.053
+    ],
+    "x": [
+      0,
+      0.992709,
+      -0.120535
+    ],
+    "z": [
+      1,
+      0,
+      0
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

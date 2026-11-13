@@ -1,0 +1,37 @@
+{
+  "constraints": {},
+  "entities": {
+    "c": {
+      "m": [
+        0,
+        0
+      ],
+      "type": "point"
+    },
+    "rim": {
+      "center": "c",
+      "r_m": 0.0415707963267949,
+      "type": "circle"
+    }
+  },
+  "format": 2,
+  "kind": "ryucad.feature",
+  "placement": {
+    "origin": [
+      "0 mm",
+      "0 mm",
+      "-4 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "type": "sketch"
+}

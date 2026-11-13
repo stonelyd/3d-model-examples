@@ -1,0 +1,12 @@
+{
+  "features": [
+    "blank",
+    "disc",
+    "gap-profile",
+    "gap",
+    "teeth",
+    "bore"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

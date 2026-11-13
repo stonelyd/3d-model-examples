@@ -1,0 +1,19 @@
+{
+  "default": "steel",
+  "format": 1,
+  "kind": "ryucad.materials",
+  "materials": {
+    "cast-iron": {
+      "colour": "#34373d",
+      "density": "7200 kg/m^3"
+    },
+    "steel": {
+      "colour": "#b9bec4",
+      "density": "7850 kg/m^3"
+    },
+    "wood": {
+      "colour": "#8a6844",
+      "density": "700 kg/m^3"
+    }
+  }
+}

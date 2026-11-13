@@ -1,0 +1,24 @@
+{
+  "features": [
+    "shell",
+    "shell-bore",
+    "cheek-r",
+    "cheek-r-bore",
+    "cheek-l",
+    "cheek-l-bore",
+    "bolthole1",
+    "bolthole2",
+    "bolthole3",
+    "bolthole4",
+    "bolthole5",
+    "bolthole6",
+    "window1",
+    "window2",
+    "window3",
+    "window4",
+    "pin-z",
+    "pin-y"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

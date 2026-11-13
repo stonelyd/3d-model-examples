@@ -1,0 +1,18 @@
+{
+  "features": [
+    "blank",
+    "disc",
+    "gap-profile",
+    "gap",
+    "teeth",
+    "bore",
+    "bolt1",
+    "bolt2",
+    "bolt3",
+    "bolt4",
+    "bolt5",
+    "bolt6"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

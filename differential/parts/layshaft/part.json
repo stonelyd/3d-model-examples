@@ -1,0 +1,8 @@
+{
+  "features": [
+    "shaft",
+    "crank-arm"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

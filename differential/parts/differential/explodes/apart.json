@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "kind": "ryucad.explode",
+  "steps": [
+    {
+      "instances": [
+        "ring-gear"
+      ],
+      "translate": [
+        "-70 mm",
+        "0 mm",
+        "0 mm"
+      ]
+    },
+    {
+      "instances": [
+        "side-gear-left"
+      ],
+      "translate": [
+        "-60 mm",
+        "0 mm",
+        "0 mm"
+      ]
+    },
+    {
+      "instances": [
+        "side-gear-right"
+      ],
+      "translate": [
+        "60 mm",
+        "0 mm",
+        "0 mm"
+      ]
+    },
+    {
+      "instances": [
+        "axle-left"
+      ],
+      "translate": [
+        "-140 mm",
+        "0 mm",
+        "0 mm"
+      ]
+    },
+    {
+      "instances": [
+        "axle-right"
+      ],
+      "translate": [
+        "140 mm",
+        "0 mm",
+        "0 mm"
+      ]
+    },
+    {
+      "instances": [
+        "pinion-z-top"
+      ],
+      "translate": [
+        "0 mm",
+        "0 mm",
+        "55 mm"
+      ]
+    },
+    {
+      "instances": [
+        "pinion-z-bottom"
+      ],
+      "translate": [
+        "0 mm",
+        "0 mm",
+        "-55 mm"
+      ]
+    },
+    {
+      "instances": [
+        "pinion-y-front"
+      ],
+      "translate": [
+        "0 mm",
+        "55 mm",
+        "0 mm"
+      ]
+    },
+    {
+      "instances": [
+        "pinion-y-back"
+      ],
+      "translate": [
+        "0 mm",
+        "-55 mm",
+        "0 mm"
+      ]
+    },
+    {
+      "instances": [
+        "input-pinion",
+        "layshaft",
+        "crank-grip"
+      ],
+      "translate": [
+        "0 mm",
+        "0 mm",
+        "-45 mm"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "features": [
+    "plate",
+    "pedestal1",
+    "bearing1",
+    "pedestal-1",
+    "bearing-1",
+    "layped-55",
+    "laybore-55",
+    "layped-15",
+    "laybore-15"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

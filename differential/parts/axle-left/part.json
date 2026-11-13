@@ -1,0 +1,9 @@
+{
+  "features": [
+    "shaft",
+    "wheel",
+    "grip"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}
