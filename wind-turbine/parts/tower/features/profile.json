@@ -1,0 +1,153 @@
+{
+  "constraints": {},
+  "entities": {
+    "l1": {
+      "end": "p2",
+      "start": "p1",
+      "type": "line"
+    },
+    "l10": {
+      "end": "p11",
+      "start": "p10",
+      "type": "line"
+    },
+    "l11": {
+      "end": "p12",
+      "start": "p11",
+      "type": "line"
+    },
+    "l12": {
+      "end": "p1",
+      "start": "p12",
+      "type": "line"
+    },
+    "l2": {
+      "end": "p3",
+      "start": "p2",
+      "type": "line"
+    },
+    "l3": {
+      "end": "p4",
+      "start": "p3",
+      "type": "line"
+    },
+    "l4": {
+      "end": "p5",
+      "start": "p4",
+      "type": "line"
+    },
+    "l5": {
+      "end": "p6",
+      "start": "p5",
+      "type": "line"
+    },
+    "l6": {
+      "end": "p7",
+      "start": "p6",
+      "type": "line"
+    },
+    "l7": {
+      "end": "p8",
+      "start": "p7",
+      "type": "line"
+    },
+    "l8": {
+      "end": "p9",
+      "start": "p8",
+      "type": "line"
+    },
+    "l9": {
+      "end": "p10",
+      "start": "p9",
+      "type": "line"
+    },
+    "p1": {
+      "m": [
+        0,
+        0
+      ],
+      "type": "point"
+    },
+    "p10": {
+      "m": [
+        0.14400000000000002,
+        0.0106
+      ],
+      "type": "point"
+    },
+    "p11": {
+      "m": [
+        0.148,
+        0.0106
+      ],
+      "type": "point"
+    },
+    "p12": {
+      "m": [
+        0.148,
+        0
+      ],
+      "type": "point"
+    },
+    "p2": {
+      "m": [
+        0,
+        0.017
+      ],
+      "type": "point"
+    },
+    "p3": {
+      "m": [
+        0.003,
+        0.017
+      ],
+      "type": "point"
+    },
+    "p4": {
+      "m": [
+        0.0045000000000000005,
+        0.0152
+      ],
+      "type": "point"
+    },
+    "p5": {
+      "m": [
+        0.012,
+        0.0143
+      ],
+      "type": "point"
+    },
+    "p6": {
+      "m": [
+        0.06,
+        0.0116
+      ],
+      "type": "point"
+    },
+    "p7": {
+      "m": [
+        0.12,
+        0.0094
+      ],
+      "type": "point"
+    },
+    "p8": {
+      "m": [
+        0.14,
+        0.0088
+      ],
+      "type": "point"
+    },
+    "p9": {
+      "m": [
+        0.14400000000000002,
+        0.0086
+      ],
+      "type": "point"
+    }
+  },
+  "format": 2,
+  "kind": "ryucad.feature",
+  "plane": "zx",
+  "type": "sketch"
+}

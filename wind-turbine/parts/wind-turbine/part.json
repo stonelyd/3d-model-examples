@@ -1,0 +1,35 @@
+{
+  "features": [
+    "ground",
+    "tower",
+    "nacelle",
+    "hub",
+    "blade-1",
+    "blade-2",
+    "blade-3",
+    "trunk-1",
+    "foliage-1",
+    "trunk-2",
+    "foliage-2",
+    "trunk-3",
+    "foliage-3",
+    "trunk-4",
+    "foliage-4",
+    "trunk-5",
+    "foliage-5"
+  ],
+  "format": 3,
+  "items": {
+    "blade": 5,
+    "foliage-a": 7,
+    "foliage-b": 9,
+    "ground": 1,
+    "hub": 4,
+    "nacelle": 3,
+    "tower": 2,
+    "trunk-a": 6,
+    "trunk-b": 8
+  },
+  "kind": "ryucad.part",
+  "part_kind": "assembly"
+}

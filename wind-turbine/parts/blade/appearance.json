@@ -1,0 +1,12 @@
+{
+  "format": 1,
+  "kind": "ryucad.appearance",
+  "part": {
+    "material": true
+  },
+  "solids": {
+    "tip": {
+      "colour": "#c8373c"
+    }
+  }
+}

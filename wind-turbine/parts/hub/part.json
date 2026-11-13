@@ -1,0 +1,11 @@
+{
+  "features": [
+    "ball",
+    "shaft",
+    "socket-10",
+    "socket-130",
+    "socket-250"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

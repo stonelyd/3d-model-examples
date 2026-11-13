@@ -1,0 +1,25 @@
+{
+  "fixed": true,
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "blade",
+  "pose": {
+    "origin_m": [
+      0,
+      0.0475,
+      0.161
+    ],
+    "x": [
+      -0.34202,
+      0,
+      0.939693
+    ],
+    "z": [
+      -0.939693,
+      0,
+      -0.34202
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

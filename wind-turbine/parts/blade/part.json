@@ -1,0 +1,11 @@
+{
+  "features": [
+    "profile",
+    "body",
+    "root",
+    "tip-profile",
+    "tip"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

@@ -1,0 +1,24 @@
+{
+  "bom_lines": 9,
+  "check": "0 errors, 0 warnings",
+  "interference": "16 pairs, 0 interferences, 0 touching (mesh estimate)",
+  "not_verified": [
+    "No mates and no motion: the rotor cannot spin; every instance is fixed and joints are clearance or face-contact fits",
+    "No aerodynamic, structural or power figures computed; mass uses solid densities (a real tower is a shell)",
+    "Blade is a flat 2.2 mm extrusion with a polyline outline: no airfoil section, twist or taper in thickness"
+  ],
+  "occurrences": 17,
+  "one_line": "A modern 3-blade wind turbine on a grass hill disc: revolved tapered tower, +Y nacelle, hub on a shaft in a bored nose socket, three silhouette-extruded blades with red tips socketed into the hub, five low-poly trees.",
+  "parameters": [],
+  "poses": [
+    "static display pose: blades at 10/130/250 deg about the Y rotor axis, nacelle aligned +Y; hero is a front-right iso, detail is a close iso on the hub and nacelle"
+  ],
+  "specs": [
+    "Tower: revolved profile, base r=17 mm flange tapering to r=8.5 mm at z=148, top flange r=10.6 mm",
+    "Rotor centre at (0, 47.5, 161) mm; blades 64.5 mm long, rotor diameter 129 mm; overall height 224.5 mm with a blade at 10 deg",
+    "Blade roots (r=4.5 mm) sit in hub sockets (r=4.6 mm) with 0.1 mm radial clearance; hub shaft (r=5 mm) runs in a nacelle nose socket (r=5.3 mm)",
+    "Hill disc r=170 mm, 10 mm thick, top at z=0; five trees in two sizes (18 mm and 23 mm tall)",
+    "Assembly mass 1.82 kg, volume 1,005,116 mm^3 with the assigned densities (solid painted-steel tower dominates)"
+  ],
+  "title": "Three-blade wind turbine"
+}

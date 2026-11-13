@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "kind": "ryucad.materials",
+  "materials": {
+    "composite": {
+      "colour": "#d7dadb",
+      "density": "1600 kg/m^3"
+    },
+    "earth": {
+      "colour": "#5d8a4a",
+      "density": "1400 kg/m^3"
+    },
+    "fibreglass": {
+      "colour": "#f2f3f2",
+      "density": "1900 kg/m^3"
+    },
+    "foliage": {
+      "colour": "#2f5d33",
+      "density": "350 kg/m^3"
+    },
+    "painted-steel": {
+      "colour": "#eef0ee",
+      "density": "7850 kg/m^3"
+    },
+    "wood": {
+      "colour": "#6b4a2f",
+      "density": "700 kg/m^3"
+    }
+  }
+}

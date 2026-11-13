@@ -1,0 +1,14 @@
+{
+  "features": [
+    "body",
+    "nose",
+    "spinner-base",
+    "tail",
+    "tail-cap",
+    "vent",
+    "yaw-drum",
+    "shaft-socket"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}
