@@ -1,0 +1,12 @@
+{
+  "features": [
+    "hub",
+    "hub-bore",
+    "blade-r",
+    "blade-l",
+    "tip-r",
+    "tip-l"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

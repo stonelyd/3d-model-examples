@@ -1,0 +1,40 @@
+{
+  "constraints": {},
+  "entities": {
+    "a1": {
+      "m": [
+        -0.03,
+        0
+      ],
+      "type": "point"
+    },
+    "a2": {
+      "m": [
+        0,
+        0
+      ],
+      "type": "point"
+    },
+    "axis": {
+      "end": "a2",
+      "start": "a1",
+      "type": "line"
+    },
+    "c1": {
+      "center": "pc",
+      "r_m": 0.004200000000000001,
+      "type": "circle"
+    },
+    "pc": {
+      "m": [
+        -0.016,
+        0.046
+      ],
+      "type": "point"
+    }
+  },
+  "format": 2,
+  "kind": "ryucad.feature",
+  "plane": "zx",
+  "type": "sketch"
+}

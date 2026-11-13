@@ -1,0 +1,17 @@
+{
+  "features": [
+    "barrel",
+    "base-ring",
+    "fin-1",
+    "fin-2",
+    "fin-3",
+    "fin-4",
+    "head",
+    "rocker",
+    "pushrod-1",
+    "pushrod-2",
+    "exhaust-stub"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

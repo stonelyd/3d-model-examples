@@ -1,0 +1,24 @@
+{
+  "features": [
+    "profile",
+    "body",
+    "socket-1",
+    "socket-deep-1",
+    "socket-2",
+    "socket-deep-2",
+    "socket-3",
+    "socket-deep-3",
+    "socket-4",
+    "socket-deep-4",
+    "socket-5",
+    "socket-deep-5",
+    "socket-6",
+    "socket-deep-6",
+    "socket-7",
+    "socket-deep-7",
+    "shaft-bore",
+    "cw-cavity"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

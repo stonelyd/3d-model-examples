@@ -1,0 +1,27 @@
+{
+  "default": "aluminium",
+  "format": 1,
+  "kind": "ryucad.materials",
+  "materials": {
+    "aluminium": {
+      "colour": "#454b51",
+      "density": "2700 kg/m^3"
+    },
+    "brass": {
+      "colour": "#b08d3f",
+      "density": "8500 kg/m^3"
+    },
+    "cast-iron": {
+      "colour": "#26262a",
+      "density": "7200 kg/m^3"
+    },
+    "steel": {
+      "colour": "#333333",
+      "density": "7850 kg/m^3"
+    },
+    "walnut": {
+      "colour": "#7b4b2a",
+      "density": "640 kg/m^3"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "features": [
+    "crankcase",
+    "cyl-1",
+    "cyl-2",
+    "cyl-3",
+    "cyl-4",
+    "cyl-5",
+    "cyl-6",
+    "cyl-7",
+    "crankshaft",
+    "propeller",
+    "spinner",
+    "exhaust-ring"
+  ],
+  "format": 3,
+  "items": {
+    "crankcase": 1,
+    "crankshaft": 3,
+    "cylinder": 2,
+    "exhaust-ring": 6,
+    "propeller": 4,
+    "spinner": 5
+  },
+  "kind": "ryucad.part",
+  "part_kind": "assembly"
+}

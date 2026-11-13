@@ -1,0 +1,15 @@
+{
+  "format": 1,
+  "kind": "ryucad.appearance",
+  "part": {
+    "colour": "#7b4b2a"
+  },
+  "solids": {
+    "tip-l": {
+      "colour": "#e8c33a"
+    },
+    "tip-r": {
+      "colour": "#e8c33a"
+    }
+  }
+}
