@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "kind": "ryucad.appearance",
+  "solids": {
+    "bunker": {
+      "colour": "#17452b"
+    },
+    "coal-1": {
+      "colour": "#17181c"
+    },
+    "coal-2": {
+      "colour": "#17181c"
+    },
+    "coal-3": {
+      "colour": "#17181c"
+    },
+    "coal-4": {
+      "colour": "#17181c"
+    },
+    "coal-5": {
+      "colour": "#17181c"
+    },
+    "floor": {
+      "colour": "#24272b"
+    },
+    "front": {
+      "colour": "#1f5c38"
+    },
+    "rear": {
+      "colour": "#1f5c38"
+    },
+    "roof": {
+      "colour": "#1a1a1c"
+    },
+    "side-l": {
+      "colour": "#1f5c38"
+    },
+    "side-r": {
+      "colour": "#1f5c38"
+    },
+    "spectacle-l": {
+      "colour": "#101014"
+    },
+    "spectacle-r": {
+      "colour": "#101014"
+    }
+  }
+}

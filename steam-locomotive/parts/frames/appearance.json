@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "kind": "ryucad.appearance",
+  "solids": {
+    "axle-1": {
+      "colour": "#33373d"
+    },
+    "axle-2": {
+      "colour": "#33373d"
+    },
+    "axle-3": {
+      "colour": "#33373d"
+    },
+    "buffer-beam": {
+      "colour": "#a52a21"
+    },
+    "buffer-l": {
+      "colour": "#2a2a2e"
+    },
+    "buffer-r": {
+      "colour": "#2a2a2e"
+    },
+    "plate-l": {
+      "colour": "#33373d"
+    },
+    "plate-r": {
+      "colour": "#33373d"
+    },
+    "running-board": {
+      "colour": "#24272b"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "cut",
+  "params": {
+    "x": "220 mm",
+    "y": "56 mm",
+    "z": "6 mm"
+  },
+  "placement": {
+    "origin": [
+      "-95 mm",
+      "-28 mm",
+      "49 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      1
+    ]
+  },
+  "targets": [
+    "running-board"
+  ],
+  "type": "box"
+}

@@ -1,0 +1,20 @@
+{
+  "features": [
+    "floor",
+    "side-l",
+    "side-r",
+    "front",
+    "rear",
+    "roof",
+    "spectacle-l",
+    "spectacle-r",
+    "bunker",
+    "coal-1",
+    "coal-2",
+    "coal-3",
+    "coal-4",
+    "coal-5"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

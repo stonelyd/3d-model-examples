@@ -1,0 +1,27 @@
+{
+  "default": "steel",
+  "format": 1,
+  "kind": "ryucad.materials",
+  "materials": {
+    "brass": {
+      "colour": "#b08d57",
+      "density": "8500 kg/m^3"
+    },
+    "cast-iron": {
+      "colour": "#43464c",
+      "density": "7200 kg/m^3"
+    },
+    "coal": {
+      "colour": "#17181c",
+      "density": "1300 kg/m^3"
+    },
+    "steel": {
+      "colour": "#8a8f98",
+      "density": "7850 kg/m^3"
+    },
+    "timber": {
+      "colour": "#3a2e24",
+      "density": "600 kg/m^3"
+    }
+  }
+}

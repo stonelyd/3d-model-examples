@@ -1,0 +1,30 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "cut",
+  "params": {
+    "height": "9 mm",
+    "radius": "4.4 mm"
+  },
+  "placement": {
+    "origin": [
+      "79 mm",
+      "-38.5 mm",
+      "26 mm"
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      -1,
+      0
+    ]
+  },
+  "targets": [
+    "rod-r"
+  ],
+  "type": "cylinder"
+}

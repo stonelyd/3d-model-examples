@@ -1,0 +1,12 @@
+{
+  "format": 1,
+  "kind": "ryucad.appearance",
+  "solids": {
+    "filler": {
+      "colour": "#26262a"
+    },
+    "tank": {
+      "colour": "#1f5c38"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "features": [
+    "plate-l",
+    "plate-r",
+    "buffer-beam",
+    "running-board",
+    "board-boiler-slot",
+    "board-arch-1",
+    "board-arch-2",
+    "board-arch-3",
+    "buffer-l",
+    "buffer-r",
+    "axle-1",
+    "axle-2",
+    "axle-3"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

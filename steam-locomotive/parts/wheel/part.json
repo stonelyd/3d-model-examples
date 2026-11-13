@@ -1,0 +1,17 @@
+{
+  "features": [
+    "tyre",
+    "bore",
+    "hub",
+    "hub-bore",
+    "spoke-1",
+    "spoke-2",
+    "spoke-3",
+    "spoke-4",
+    "spoke-5",
+    "spoke-6",
+    "pin"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

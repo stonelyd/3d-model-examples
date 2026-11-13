@@ -1,0 +1,25 @@
+{
+  "fixed": true,
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "wheel",
+  "pose": {
+    "origin_m": [
+      0.065,
+      -0.034,
+      0.026000000000000002
+    ],
+    "x": [
+      1,
+      0,
+      0
+    ],
+    "z": [
+      0,
+      0,
+      -1
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

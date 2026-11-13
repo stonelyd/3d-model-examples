@@ -1,0 +1,30 @@
+{
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "cut",
+  "params": {
+    "height": "125 mm",
+    "radius": "28 mm"
+  },
+  "placement": {
+    "origin": [
+      "-25 mm",
+      "0 mm",
+      "78 mm"
+    ],
+    "x": [
+      0,
+      0,
+      1
+    ],
+    "z": [
+      1,
+      0,
+      0
+    ]
+  },
+  "targets": [
+    "tank"
+  ],
+  "type": "cylinder"
+}

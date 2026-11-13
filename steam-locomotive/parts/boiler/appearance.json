@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "kind": "ryucad.appearance",
+  "solids": {
+    "barrel": {
+      "colour": "#1f5c38"
+    },
+    "chimney": {
+      "colour": "#17181a"
+    },
+    "chimney-cap": {
+      "colour": "#17181a"
+    },
+    "dart": {
+      "colour": "#8a8f98"
+    },
+    "dart-bar": {
+      "colour": "#8a8f98"
+    },
+    "door": {
+      "colour": "#26262a"
+    },
+    "safety": {
+      "colour": "#b08d57"
+    },
+    "safety-cap": {
+      "colour": "#b08d57"
+    },
+    "smokebox": {
+      "colour": "#26262a"
+    }
+  }
+}

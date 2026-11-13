@@ -1,0 +1,15 @@
+{
+  "features": [
+    "barrel",
+    "smokebox",
+    "door",
+    "dart",
+    "dart-bar",
+    "chimney",
+    "chimney-cap",
+    "safety",
+    "safety-cap"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

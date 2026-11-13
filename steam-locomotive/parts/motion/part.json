@@ -1,0 +1,24 @@
+{
+  "features": [
+    "rod-l",
+    "rod-eye-l-1",
+    "rod-eye-l-2",
+    "rod-eye-l-3",
+    "piston-l",
+    "crosshead-l",
+    "prod-l",
+    "link-l",
+    "link-eye-l",
+    "rod-r",
+    "rod-eye-r-1",
+    "rod-eye-r-2",
+    "rod-eye-r-3",
+    "piston-r",
+    "crosshead-r",
+    "prod-r",
+    "link-r",
+    "link-eye-r"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

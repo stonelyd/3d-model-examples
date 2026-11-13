@@ -1,0 +1,28 @@
+{
+  "features": [
+    "track",
+    "frames",
+    "boiler",
+    "tank",
+    "cab",
+    "motion",
+    "wheel-1-l",
+    "wheel-1-r",
+    "wheel-2-l",
+    "wheel-2-r",
+    "wheel-3-l",
+    "wheel-3-r"
+  ],
+  "format": 3,
+  "items": {
+    "boiler": 3,
+    "cab": 5,
+    "frames": 2,
+    "motion": 6,
+    "tank": 4,
+    "track": 1,
+    "wheel": 7
+  },
+  "kind": "ryucad.part",
+  "part_kind": "assembly"
+}

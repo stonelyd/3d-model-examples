@@ -1,0 +1,39 @@
+{
+  "format": 1,
+  "kind": "ryucad.appearance",
+  "solids": {
+    "rail-l": {
+      "colour": "#6f757d"
+    },
+    "rail-r": {
+      "colour": "#6f757d"
+    },
+    "sleeper-1": {
+      "colour": "#3a2e24"
+    },
+    "sleeper-2": {
+      "colour": "#3a2e24"
+    },
+    "sleeper-3": {
+      "colour": "#3a2e24"
+    },
+    "sleeper-4": {
+      "colour": "#3a2e24"
+    },
+    "sleeper-5": {
+      "colour": "#3a2e24"
+    },
+    "sleeper-6": {
+      "colour": "#3a2e24"
+    },
+    "sleeper-7": {
+      "colour": "#3a2e24"
+    },
+    "sleeper-8": {
+      "colour": "#3a2e24"
+    },
+    "sleeper-9": {
+      "colour": "#3a2e24"
+    }
+  }
+}

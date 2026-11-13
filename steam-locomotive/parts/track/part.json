@@ -1,0 +1,17 @@
+{
+  "features": [
+    "rail-l",
+    "rail-r",
+    "sleeper-1",
+    "sleeper-2",
+    "sleeper-3",
+    "sleeper-4",
+    "sleeper-5",
+    "sleeper-6",
+    "sleeper-7",
+    "sleeper-8",
+    "sleeper-9"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

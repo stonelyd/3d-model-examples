@@ -1,0 +1,36 @@
+{
+  "format": 1,
+  "kind": "ryucad.appearance",
+  "solids": {
+    "crosshead-l": {
+      "colour": "#8a8f98"
+    },
+    "crosshead-r": {
+      "colour": "#8a8f98"
+    },
+    "link-l": {
+      "colour": "#9aa0a8"
+    },
+    "link-r": {
+      "colour": "#9aa0a8"
+    },
+    "piston-l": {
+      "colour": "#33363b"
+    },
+    "piston-r": {
+      "colour": "#33363b"
+    },
+    "prod-l": {
+      "colour": "#9aa0a8"
+    },
+    "prod-r": {
+      "colour": "#9aa0a8"
+    },
+    "rod-l": {
+      "colour": "#9aa0a8"
+    },
+    "rod-r": {
+      "colour": "#9aa0a8"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "features": [
+    "tank",
+    "saddle-cut",
+    "filler"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "kind": "ryucad.appearance",
+  "solids": {
+    "hub": {
+      "colour": "#8e2323"
+    },
+    "pin": {
+      "colour": "#8a8f98"
+    },
+    "spoke-1": {
+      "colour": "#8e2323"
+    },
+    "spoke-2": {
+      "colour": "#8e2323"
+    },
+    "spoke-3": {
+      "colour": "#8e2323"
+    },
+    "spoke-4": {
+      "colour": "#8e2323"
+    },
+    "spoke-5": {
+      "colour": "#8e2323"
+    },
+    "spoke-6": {
+      "colour": "#8e2323"
+    },
+    "tyre": {
+      "colour": "#2a2a2e"
+    }
+  }
+}
