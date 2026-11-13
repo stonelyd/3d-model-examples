@@ -1,0 +1,14 @@
+{
+  "extent": {
+    "length": "11 mm",
+    "type": "blind"
+  },
+  "format": 3,
+  "kind": "ryucad.feature",
+  "operation": "join",
+  "sketch": "bust",
+  "targets": [
+    "body"
+  ],
+  "type": "extrude"
+}

@@ -1,0 +1,10 @@
+{
+  "features": [
+    "profile",
+    "body",
+    "cross-v",
+    "cross-h"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

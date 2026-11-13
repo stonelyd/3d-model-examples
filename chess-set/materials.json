@@ -1,0 +1,15 @@
+{
+  "default": "boxwood",
+  "format": 1,
+  "kind": "ryucad.materials",
+  "materials": {
+    "boxwood": {
+      "colour": "#e9dcbc",
+      "density": "670 kg/m^3"
+    },
+    "walnut": {
+      "colour": "#6e452a",
+      "density": "640 kg/m^3"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "bom_lines": 7,
+  "check": "0 errors, 0 warnings",
+  "interference": "82 pairs checked, 0 interferences (mesh estimate)",
+  "not_verified": [
+    "One boxwood density (670 kg/m^3) serves both armies; real ebony pieces would be denser",
+    "Pieces are fixed instances on their squares, not mated; no mid-game poses modelled",
+    "Knight head is a flat-sided extruded silhouette, not a carved solid",
+    "Turned profiles are polylines, so curved surfaces are fine conical bands",
+    "Running `ryucad check` inside this repo adds 4 warnings about the parent checkout's missing ryucad git drivers/hooks (.gitattributes, merge driver, pre-commit hooks) - a property of the repo, not the model; the quoted check result is the model's own"
+  ],
+  "occurrences": 33,
+  "one_line": "A Staunton-style chess set in starting position: six piece types as revolved lathe profiles (knight head an extruded silhouette), a 65-solid board, and 32 pieces coloured per assembly occurrence, ivory against ebony.",
+  "parameters": [],
+  "poses": [
+    "starting position: both armies on ranks 1-2 and 7-8, knights facing the opposing army",
+    "exploded 'lift': white pieces +70 mm, black pieces +150 mm (images/detail.png)"
+  ],
+  "specs": [
+    "Board 392 x 392 x 16 mm mahogany base with 64 separate 42 mm square solids, maple #e8d5b5 / walnut #7a4a2b, a1 dark and queens on their colour",
+    "King 64 mm tall (30 mm base), queen 55.6 mm, bishop 49.5 mm, knight 51.5 mm, rook 38 mm, pawn 32 mm",
+    "Piece details as features: rook battlements from two crossed slot cuts, bishop mitre a diagonal slot cut, queen coronet of 8 cones + sphere finial, king cross, knight eyes a through-hole",
+    "Total mass 1.970 kg, volume 3,066,264 mm^3 (boxwood 670 kg/m^3 pieces, walnut 640 kg/m^3 board)",
+    "Exploded view 'lift' saved: white army +70 mm, black army +150 mm"
+  ],
+  "title": "Staunton chess set — ivory and ebony"
+}

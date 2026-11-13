@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "kind": "ryucad.appearance",
+  "occurrences": {
+    "black-bishop-c8": {
+      "colour": "#26221f"
+    },
+    "black-bishop-f8": {
+      "colour": "#26221f"
+    },
+    "black-king-e8": {
+      "colour": "#26221f"
+    },
+    "black-knight-b8": {
+      "colour": "#26221f"
+    },
+    "black-knight-g8": {
+      "colour": "#26221f"
+    },
+    "black-pawn-a7": {
+      "colour": "#26221f"
+    },
+    "black-pawn-b7": {
+      "colour": "#26221f"
+    },
+    "black-pawn-c7": {
+      "colour": "#26221f"
+    },
+    "black-pawn-d7": {
+      "colour": "#26221f"
+    },
+    "black-pawn-e7": {
+      "colour": "#26221f"
+    },
+    "black-pawn-f7": {
+      "colour": "#26221f"
+    },
+    "black-pawn-g7": {
+      "colour": "#26221f"
+    },
+    "black-pawn-h7": {
+      "colour": "#26221f"
+    },
+    "black-queen-d8": {
+      "colour": "#26221f"
+    },
+    "black-rook-a8": {
+      "colour": "#26221f"
+    },
+    "black-rook-h8": {
+      "colour": "#26221f"
+    },
+    "white-bishop-c1": {
+      "colour": "#f2ead8"
+    },
+    "white-bishop-f1": {
+      "colour": "#f2ead8"
+    },
+    "white-king-e1": {
+      "colour": "#f2ead8"
+    },
+    "white-knight-b1": {
+      "colour": "#f2ead8"
+    },
+    "white-knight-g1": {
+      "colour": "#f2ead8"
+    },
+    "white-pawn-a2": {
+      "colour": "#f2ead8"
+    },
+    "white-pawn-b2": {
+      "colour": "#f2ead8"
+    },
+    "white-pawn-c2": {
+      "colour": "#f2ead8"
+    },
+    "white-pawn-d2": {
+      "colour": "#f2ead8"
+    },
+    "white-pawn-e2": {
+      "colour": "#f2ead8"
+    },
+    "white-pawn-f2": {
+      "colour": "#f2ead8"
+    },
+    "white-pawn-g2": {
+      "colour": "#f2ead8"
+    },
+    "white-pawn-h2": {
+      "colour": "#f2ead8"
+    },
+    "white-queen-d1": {
+      "colour": "#f2ead8"
+    },
+    "white-rook-a1": {
+      "colour": "#f2ead8"
+    },
+    "white-rook-h1": {
+      "colour": "#f2ead8"
+    }
+  }
+}
