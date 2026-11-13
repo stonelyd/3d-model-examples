@@ -1,0 +1,11 @@
+{
+  "features": [
+    "body-profile",
+    "body",
+    "cheek-a",
+    "cheek-b",
+    "cheek-bore"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

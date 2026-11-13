@@ -1,0 +1,25 @@
+{
+  "fixed": true,
+  "format": 4,
+  "kind": "ryucad.feature",
+  "part": "arm-upper",
+  "pose": {
+    "origin_m": [
+      0.111283,
+      0,
+      0.22209
+    ],
+    "x": [
+      0.78801,
+      0,
+      0.61566
+    ],
+    "z": [
+      -0.61566,
+      0,
+      0.78801
+    ]
+  },
+  "rev": "working",
+  "type": "instance"
+}

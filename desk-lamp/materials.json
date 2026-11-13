@@ -1,0 +1,19 @@
+{
+  "default": "enamel",
+  "format": 1,
+  "kind": "ryucad.materials",
+  "materials": {
+    "enamel": {
+      "colour": "#d96c33",
+      "density": "2700 kg/m^3"
+    },
+    "glass": {
+      "colour": "#fff2cf",
+      "density": "1200 kg/m^3"
+    },
+    "steel": {
+      "colour": "#8a8f94",
+      "density": "7850 kg/m^3"
+    }
+  }
+}

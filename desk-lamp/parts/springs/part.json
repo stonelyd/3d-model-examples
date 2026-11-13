@@ -1,0 +1,10 @@
+{
+  "features": [
+    "spring-lo-a",
+    "spring-lo-b",
+    "spring-hi-a",
+    "spring-hi-b"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

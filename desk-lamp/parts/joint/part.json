@@ -1,0 +1,9 @@
+{
+  "features": [
+    "disc",
+    "cap",
+    "bore"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

@@ -1,0 +1,10 @@
+{
+  "features": [
+    "bar-a",
+    "bar-b",
+    "pin-hi",
+    "pin-lo"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

@@ -1,0 +1,10 @@
+{
+  "features": [
+    "outer-profile",
+    "outer",
+    "inner-profile",
+    "inner"
+  ],
+  "format": 1,
+  "kind": "ryucad.part"
+}

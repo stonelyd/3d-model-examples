@@ -1,0 +1,27 @@
+{
+  "bom_lines": 7,
+  "check": "0 errors, 0 warnings",
+  "interference": "24 pairs checked, 0 interferences, 0 unchecked (mesh estimate)",
+  "not_verified": [
+    "Pose is fixed: joints are placed instances, not mates, and do not articulate",
+    "Springs are smooth rods, not coils; no power cord modelled",
+    "Shade neck stands 4 mm off the head joint disc; an exactly tangent neck made that pair's interference boolean uncertain",
+    "Bulb is a plain sphere: no socket, filament or wiring",
+    "No tip-over or joint-strength analysis; centre of mass reported, not tested",
+    "Running `ryucad check` inside this repo adds 4 warnings about the parent checkout's missing ryucad git drivers/hooks (.gitattributes, merge driver, pre-commit hooks) - a property of the repo, not the model; the quoted check result is the model's own"
+  ],
+  "occurrences": 9,
+  "one_line": "An articulated architect's desk lamp in orange enamel: domed base with clevis, twin-bar arms (210/190 mm) on shared disc-and-cap joints, exposed spring rods, and a hollow bell shade with a bulb, posed leaning back with the head over the base.",
+  "parameters": [],
+  "poses": [
+    "anglepoise stance: lower arm 32 deg from vertical, upper arm -38 deg, shade aimed (0.94, 0, -0.34) down-forward"
+  ],
+  "specs": [
+    "Base: revolved dome, r85 foot, clevis cheeks bored r7.5; joint part (x3): disc r17, through cap r7, centre bore r4.5; arm cross pins r4 run in the bores",
+    "Arms: lower 210 mm, upper 190 mm, twin bars at y +/-11 with pins; bars stop 8 mm short of joint centres to clear the caps",
+    "Shade: bell shell of two revolved profiles (outer + inner cut), rim r52, 2.5 mm wall, slim r9 neck; bulb sphere r11, cream #fff2cf",
+    "Joints at (0, 0, 44), (111.3, 0, 222.1) and (-5.7, 0, 371.8); overall height about 390 mm",
+    "Mass 1.617 kg, volume 529,449 mm^3, centre of mass (14.6, 0, 84.6) mm; enamel #d96c33 over aluminium density, steel joints/springs/pins"
+  ],
+  "title": "Articulated desk lamp"
+}

@@ -1,0 +1,15 @@
+{
+  "format": 1,
+  "kind": "ryucad.appearance",
+  "solids": {
+    "bar-a": {
+      "colour": "#d96c33"
+    },
+    "bar-b": {
+      "colour": "#d96c33"
+    },
+    "pin-hi": {
+      "colour": "#8a8f94"
+    }
+  }
+}

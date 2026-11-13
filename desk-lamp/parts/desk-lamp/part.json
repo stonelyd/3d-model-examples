@@ -1,0 +1,25 @@
+{
+  "features": [
+    "base",
+    "joint-base",
+    "arm-lower",
+    "joint-elbow",
+    "arm-upper",
+    "joint-head",
+    "springs",
+    "shade",
+    "bulb"
+  ],
+  "format": 3,
+  "items": {
+    "arm-lower": 3,
+    "arm-upper": 4,
+    "base": 1,
+    "bulb": 7,
+    "joint": 2,
+    "shade": 6,
+    "springs": 5
+  },
+  "kind": "ryucad.part",
+  "part_kind": "assembly"
+}
