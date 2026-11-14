@@ -1,0 +1,30 @@
+{
+  "a": {
+    "at": {
+      "feature": "plate",
+      "name": "ff7301afd31d8b504317f056c6953973"
+    },
+    "instance": [
+      "base"
+    ]
+  },
+  "angle": "right",
+  "b": {
+    "at": "origin",
+    "instance": [
+      "side-gear-right"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "0.000000 mm",
+        "0.000000 mm"
+      ],
+      "rotate": "101.250000 deg"
+    }
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

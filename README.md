@@ -43,7 +43,7 @@ and colour.
 
 | Model | Preview | Occurrences | Interference |
 |---|---|---|---|
-| [Open differential (bevel demonstrator)](differential/) | ![](differential/images/hero.png) | 14 | 53 pairs, 0 interferences |
+| [Open differential — parametric, drivable](differential/) | ![](differential/images/hero.png) | 14 | 53 pairs, 0 interferences |
 | [Six-slot Geneva indexing mechanism](geneva-mechanism/) | ![](geneva-mechanism/images/hero.png) | 6 | 9 pairs, 0 interferences |
 | [7-cylinder radial aircraft engine](radial-engine/) | ![](radial-engine/images/hero.png) | 12 | 28 pairs, 0 interferences |
 | [0-6-0 saddle-tank steam locomotive](steam-locomotive/) | ![](steam-locomotive/images/hero.png) | 12 | 75 pairs, 0 interferences |

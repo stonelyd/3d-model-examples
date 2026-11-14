@@ -1,0 +1,22 @@
+{
+  "a": {
+    "at": {
+      "feature": "shell",
+      "name": "f1baefad494a4dd31ae5ee3f855105f8"
+    },
+    "instance": [
+      "carrier"
+    ]
+  },
+  "angle": "spider",
+  "b": {
+    "at": "origin",
+    "instance": [
+      "pinion-y-front"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

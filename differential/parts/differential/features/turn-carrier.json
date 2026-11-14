@@ -1,0 +1,25 @@
+{
+  "a": {
+    "at": {
+      "feature": "plate",
+      "name": "ff7301afd31d8b504317f056c6953973"
+    },
+    "instance": [
+      "base"
+    ]
+  },
+  "angle": "carrier",
+  "b": {
+    "at": {
+      "feature": "shell",
+      "name": "e16f06e28f3ef77565b543490cd4481d"
+    },
+    "instance": [
+      "carrier"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

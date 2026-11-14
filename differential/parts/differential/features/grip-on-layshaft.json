@@ -1,0 +1,18 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "layshaft"
+    ]
+  },
+  "b": {
+    "at": "origin",
+    "instance": [
+      "crank-grip"
+    ]
+  },
+  "form": "fastened",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

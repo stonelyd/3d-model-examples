@@ -1,0 +1,30 @@
+{
+  "a": {
+    "at": {
+      "feature": "plate",
+      "name": "83ed4e2a5120348a218af704bcc96135"
+    },
+    "instance": [
+      "base"
+    ]
+  },
+  "angle": "carrier",
+  "b": {
+    "at": "origin",
+    "instance": [
+      "ring-gear"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "0.000000 mm",
+        "38.500000 mm"
+      ],
+      "rotate": "90.000000 deg"
+    }
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

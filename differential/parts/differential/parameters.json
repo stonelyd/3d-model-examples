@@ -1,0 +1,12 @@
+{
+  "format": 1,
+  "kind": "ryucad.parameters",
+  "parameters": {
+    "carrier": "crank * 13 / 40",
+    "crank": "0 deg",
+    "left": "carrier + slip",
+    "right": "carrier - slip",
+    "slip": "0 deg",
+    "spider": "slip * 16 / 10"
+  }
+}

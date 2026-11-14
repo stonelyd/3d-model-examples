@@ -1,0 +1,19 @@
+{
+  "a": {
+    "at": "origin",
+    "instance": [
+      "carrier"
+    ]
+  },
+  "angle": "spider",
+  "b": {
+    "at": "origin",
+    "instance": [
+      "pinion-z-top"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

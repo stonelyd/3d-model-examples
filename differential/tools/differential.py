@@ -179,40 +179,152 @@ def build(p):
         else:
             p.run("colour", part, "--material")
 
-    # ---- assembly --------------------------------------------------------------
+    # ---- assembly (parametric: mates driven by crank/slip) ---------------------
     asm = p.part("differential", assembly=True)
     ID = {"z": "0,0,1", "x": "1,0,0"}
+    # two inputs, four derived couplings. carrier follows the crank through
+    # the 13:40 final drive; the axles split around the carrier by the slip;
+    # each spider pinion spins about its own outward axis at slip * 16/10.
+    p.run("param", "set", asm, "crank=0 deg", "slip=0 deg")
+    p.run("param", "set", asm, "carrier=crank * 13 / 40")
+    p.run("param", "set", asm, "left=carrier + slip", "right=carrier - slip")
+    p.run("param", "set", asm, "spider=slip * 16 / 10")
     p.add(asm, "instance", "base", of="base", origin="0mm,0mm,0mm",
           fixed=True, **ID)
     cos11 = "0.9807852804032304"; sin11 = "0.19509032201612825"
     p.add(asm, "instance", "side-gear-right", of="side-gear-right",
-          origin="0mm,0mm,0mm", z="1,0,0", x=f"0,{cos11},-{sin11}", fixed=True)
+          origin="0mm,0mm,0mm", z="1,0,0", x=f"0,{cos11},-{sin11}")
     p.add(asm, "instance", "side-gear-left", of="side-gear-left",
-          origin="0mm,0mm,0mm", z="-1,0,0", x=f"0,{cos11},{sin11}", fixed=True)
+          origin="0mm,0mm,0mm", z="-1,0,0", x=f"0,{cos11},{sin11}")
     p.add(asm, "instance", "pinion-z-top", of="pinion-1",
-          origin="0mm,0mm,0mm", z="0,0,1", x="1,0,0", fixed=True)
+          origin="0mm,0mm,0mm", z="0,0,1", x="1,0,0")
     p.add(asm, "instance", "pinion-z-bottom", of="pinion-2",
-          origin="0mm,0mm,0mm", z="0,0,-1", x="1,0,0", fixed=True)
+          origin="0mm,0mm,0mm", z="0,0,-1", x="1,0,0")
     p.add(asm, "instance", "pinion-y-front", of="pinion-3",
-          origin="0mm,0mm,0mm", z="0,1,0", x="1,0,0", fixed=True)
+          origin="0mm,0mm,0mm", z="0,1,0", x="1,0,0")
     p.add(asm, "instance", "pinion-y-back", of="pinion-4",
-          origin="0mm,0mm,0mm", z="0,-1,0", x="1,0,0", fixed=True)
-    p.add(asm, "instance", "carrier", of="carrier", origin="0mm,0mm,0mm",
-          fixed=True, **ID)
+          origin="0mm,0mm,0mm", z="0,-1,0", x="1,0,0")
+    p.add(asm, "instance", "carrier", of="carrier", origin="0mm,0mm,0mm", **ID)
     p.add(asm, "instance", "ring-gear", of="ring-gear",
-          origin="-38.5mm,0mm,0mm", z="1,0,0", x="0,1,0", fixed=True)
+          origin="-38.5mm,0mm,0mm", z="1,0,0", x="0,1,0")
     p.add(asm, "instance", "axle-right", of="axle-right",
-          origin="0mm,0mm,0mm", z="1,0,0", x="0,1,0", fixed=True)
+          origin="0mm,0mm,0mm", z="1,0,0", x="0,1,0")
     p.add(asm, "instance", "axle-left", of="axle-left",
-          origin="0mm,0mm,0mm", z="-1,0,0", x="0,1,0", fixed=True)
+          origin="0mm,0mm,0mm", z="-1,0,0", x="0,1,0")
     dlt = -6.923; cd, sd = math.cos(math.radians(dlt)), math.sin(math.radians(dlt))
     p.add(asm, "instance", "input-pinion", of="input-pinion",
-          origin="-38mm,0mm,-53mm", z="1,0,0", x=f"0,{cd:.6f},{sd:.6f}",
-          fixed=True)
+          origin="-38mm,0mm,-53mm", z="1,0,0", x=f"0,{cd:.6f},{sd:.6f}")
     p.add(asm, "instance", "layshaft", of="layshaft", origin="0mm,0mm,0mm",
-          fixed=True, **ID)
+          **ID)
     p.add(asm, "instance", "crank-grip", of="crank-grip", origin="0mm,0mm,0mm",
-          fixed=True, **ID)
+          **ID)
+
+    # ---- mates -----------------------------------------------------------------
+    # ryumate connector semantics (measured on 0.9.0 with a probe rig and
+    # against the corpus gearbox): a mate connector's origin is the owning
+    # instance's origin, with the referenced face's frame origin substituted
+    # only in the plane perpendicular to the face axis (the axial station
+    # stays at the instance origin); the face supplies the connector axes.
+    # The offset document then shifts the origin in connector axes, turns
+    # about z and flips about x. Each offset below makes B's connector
+    # coincide with A's at the placed pose, so angle 0 is the shipped
+    # static pose and a positive angle turns B right-handed about the
+    # connector z. All main-axis and layshaft connectors end with z = +X
+    # (their axis lines through (0,0,0) and (0,0,-53) respectively, from
+    # the anchor faces' perpendicular components); the pinions' connectors
+    # sit on the carrier origin with z along their pin.
+    import json as _json
+
+    def cyl_face(part, solid, radius_mm, origin_pred):
+        refs = p.faces(part, solid, lambda f: f["surface"]["type"] == "cylinder"
+                       and abs(f["surface"]["radius"] * 1000 - radius_mm) < 0.01
+                       and origin_pred([v * 1000 for v in f["surface"]["frame"]["origin"]]))
+        assert refs, (part, solid, radius_mm)
+        return refs[0].split("/", 1)[1]  # "<solid>/<hash>"
+
+    def off(Ob, xb, yb, zb, Oa, xa):
+        """Offset taking B's connector (instance origin Ob, axes xb/yb/zb)
+        onto A's connector (origin Oa, x xa): origin in B's axes plus the
+        turn about z that aligns B's x onto A's x."""
+        d = [Oa[i] - Ob[i] for i in range(3)]
+        dot = lambda a, b: a[0] * b[0] + a[1] * b[1] + a[2] * b[2]
+        o = {"origin": [f"{dot(d, ax):.6f} mm" for ax in (xb, yb, zb)]}
+        theta = math.degrees(math.atan2(dot(xa, yb), dot(xa, xb)))
+        if abs(theta) > 1e-9:
+            o["rotate"] = f"{theta:.6f} deg"
+        return o
+
+    def J(o):
+        return _json.dumps(o)
+
+    # Anchor faces: base bearings (main axis) and laybores (layshaft axis)
+    # all have frame x=(0,0,1), z=+X; the carrier cheek bore face matches.
+    XA = (0, 0, 1)
+    brg_p = cyl_face("base", "plate", 6.0, lambda o: o[0] > 0)      # (70,0,0)
+    brg_m = cyl_face("base", "plate", 6.0, lambda o: o[0] < 0)      # (-90,0,0)
+    lay_55 = cyl_face("base", "plate", 4.4, lambda o: o[0] < -40)   # (-64,0,-53)
+    lay_15 = cyl_face("base", "plate", 4.4, lambda o: o[0] > -40)   # (-24,0,-53)
+    cheek_r = cyl_face("carrier", "shell", 11.4, lambda o: o[0] > 0)  # (26,0,0)
+    pin_y = cyl_face("carrier", "shell", 4.5,
+                     lambda o: abs(o[1] + 33) < 1 and abs(o[0]) < 1)  # pin-y face
+    lay_shaft_f = cyl_face("layshaft", "shaft", 4.0, lambda o: True)  # (-72,0,-53)
+
+    def rev(mid, a_ref, b_ref, a_off, b_off, angle):
+        flags = dict(form="revolute", a=a_ref, b=b_ref,
+                     a_offset=J(a_off) if a_off else "{}",
+                     b_offset=J(b_off) if b_off else "{}")
+        if angle:
+            flags["angle"] = angle
+        p.add(asm, "mate", mid, **flags)
+
+    Z3 = (0.0, 0.0, 0.0)
+    # Input group: layshaft (via its shaft face; connector already on the
+    # layshaft axis at (0,0,-53)) and input pinion turn with the crank.
+    # The ring gear is an external mesh, so the pinion turns -crank about
+    # +X when the carrier turns +crank*13/40 (rolling at the pitch point).
+    rev("turn-layshaft", f"{asm}/base/{lay_55}",
+        f"{asm}/layshaft/{lay_shaft_f}", None, None, "-crank")
+    ip_x = (0, cd, sd); ip_y = (0, -sd, cd)
+    rev("turn-input-pinion", f"{asm}/base/{lay_15}", f"{asm}/input-pinion", None,
+        off((-38, 0, -53), ip_x, ip_y, (1, 0, 0), (0, 0, -53), XA), "-crank")
+    p.add(asm, "mate", "grip-on-layshaft", form="fastened",
+          a=f"{asm}/layshaft", a_offset="{}", b=f"{asm}/crank-grip",
+          b_offset="{}")
+    # Carrier group: drum (via its cheek bore face; connector already on
+    # the main axis at the origin) and ring gear, both at angle=carrier.
+    rev("turn-carrier", f"{asm}/base/{brg_p}", f"{asm}/carrier/{cheek_r}",
+        None, None, "carrier")
+    rev("turn-ring-gear", f"{asm}/base/{brg_m}", f"{asm}/ring-gear", None,
+        off((-38.5, 0, 0), (0, 1, 0), (0, 0, 1), (1, 0, 0), Z3, XA), "carrier")
+    # Right group: axle + side gear at angle=right about +X.
+    rev("turn-axle-right", f"{asm}/base/{brg_p}", f"{asm}/axle-right", None,
+        off(Z3, (0, 1, 0), (0, 0, 1), (1, 0, 0), Z3, XA), "right")
+    c11, s11 = 0.9807852804032304, 0.19509032201612825
+    rev("turn-gear-right", f"{asm}/base/{brg_p}", f"{asm}/side-gear-right", None,
+        off(Z3, (0, c11, -s11), (0, s11, c11), (1, 0, 0), Z3, XA), "right")
+    # Left group: frames point -X, so their connectors flip onto +X and
+    # the same angle expression turns them +left about +X.
+    o = off(Z3, (0, 1, 0), (0, 0, -1), (-1, 0, 0), Z3, XA); o["flip"] = True
+    rev("turn-axle-left", f"{asm}/base/{brg_m}", f"{asm}/axle-left", None, o,
+        "left")
+    o = off(Z3, (0, c11, s11), (0, s11, -c11), (-1, 0, 0), Z3, XA)
+    o["flip"] = True
+    rev("turn-gear-left", f"{asm}/base/{brg_m}", f"{asm}/side-gear-left", None,
+        o, "left")
+    # Spider pinions, chained on the carrier: the z pair mates on the
+    # carrier's own frame (its z is the pin axis), the y pair on the
+    # carrier's pin-y face. Connectors already coincide at the carrier
+    # origin, so only the flipped pinions carry an offset; they take
+    # -spider so every pinion spins +spider about its own outward axis,
+    # as the mesh kinematics require (rolling at both pitch points).
+    rev("spin-z-top", f"{asm}/carrier", f"{asm}/pinion-z-top", None, None,
+        "spider")
+    rev("spin-z-bottom", f"{asm}/carrier", f"{asm}/pinion-z-bottom", None,
+        {"flip": True}, "-spider")
+    rev("spin-y-front", f"{asm}/carrier/{pin_y}", f"{asm}/pinion-y-front",
+        None, None, "spider")
+    rev("spin-y-back", f"{asm}/carrier/{pin_y}", f"{asm}/pinion-y-back", None,
+        {"flip": True}, "-spider")
     p.run("explode", "save", "differential", "apart", "--steps",
           '[{"instances": ["ring-gear"], "translate": ["-70 mm", 0, 0]},'
           ' {"instances": ["side-gear-left"], "translate": ["-60 mm", 0, 0]},'
@@ -237,5 +349,10 @@ def build(p):
     print("INTERFERENCE pairs:", intf["pairs"], "clear:", intf["clear"],
           "interfering:", len(intf["interferences"]),
           "touching:", len(intf.get("touching", [])))
+    eq = p.run("equations", "differential")
+    for row in eq["rows"]:
+        if row["what"] == "parameter":
+            print("PARAM", row["name"], "=", row["text"], "->",
+                  f"{row['value'].get('rad', 0):.6f} rad")
 
 main(build)

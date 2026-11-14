@@ -13,7 +13,20 @@
     "axle-left",
     "input-pinion",
     "layshaft",
-    "crank-grip"
+    "crank-grip",
+    "turn-layshaft",
+    "turn-input-pinion",
+    "grip-on-layshaft",
+    "turn-carrier",
+    "turn-ring-gear",
+    "turn-axle-right",
+    "turn-gear-right",
+    "turn-axle-left",
+    "turn-gear-left",
+    "spin-z-top",
+    "spin-z-bottom",
+    "spin-y-front",
+    "spin-y-back"
   ],
   "format": 3,
   "items": {

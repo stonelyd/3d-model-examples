@@ -1,0 +1,30 @@
+{
+  "a": {
+    "at": {
+      "feature": "plate",
+      "name": "198bd3a5ec1c589846a79667c1a91835"
+    },
+    "instance": [
+      "base"
+    ]
+  },
+  "angle": "-crank",
+  "b": {
+    "at": "origin",
+    "instance": [
+      "input-pinion"
+    ],
+    "offset": {
+      "origin": [
+        "0.000000 mm",
+        "0.000000 mm",
+        "38.000000 mm"
+      ],
+      "rotate": "96.923000 deg"
+    }
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}

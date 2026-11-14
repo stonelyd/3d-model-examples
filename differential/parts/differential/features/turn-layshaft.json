@@ -1,0 +1,25 @@
+{
+  "a": {
+    "at": {
+      "feature": "plate",
+      "name": "19e3ef0410a1377cd9ee951ba33f5e65"
+    },
+    "instance": [
+      "base"
+    ]
+  },
+  "angle": "-crank",
+  "b": {
+    "at": {
+      "feature": "shaft",
+      "name": "e6ac7e360809b802320f00813663250d"
+    },
+    "instance": [
+      "layshaft"
+    ]
+  },
+  "form": "revolute",
+  "format": 4,
+  "kind": "ryucad.feature",
+  "type": "mate"
+}
